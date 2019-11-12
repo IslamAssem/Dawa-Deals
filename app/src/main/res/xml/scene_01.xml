@@ -6,7 +6,7 @@
         android:id="@+id/transition_hide"
         app:constraintSetStart="@+id/bottom"
         app:constraintSetEnd="@+id/top"
-        app:duration="500">
+        app:duration="1000">
     </Transition>
 
     <ConstraintSet android:id="@+id/top">
@@ -14,19 +14,20 @@
             android:id="@+id/logo"
             android:layout_width="156dp"
             android:layout_height="162dp"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="parent" />
         <Constraint
-            android:id="@+id/login_label"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:layout_constraintBottom_toTopOf="@+id/username_label"
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password"/>
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/bottom">
@@ -39,14 +40,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
         <Constraint
-            android:id="@+id/login_label"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/username_label"
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logo" />
+            app:layout_constraintTop_toBottomOf="@+id/password"/>
+
     </ConstraintSet>
 
 </MotionScene>

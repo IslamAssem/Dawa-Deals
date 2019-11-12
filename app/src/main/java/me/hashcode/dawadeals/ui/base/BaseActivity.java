@@ -22,20 +22,18 @@ import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.data.model.user.UserDetails;
 import me.hashcode.dawadeals.interfaces.OnConnectionStatusChanged;
 import me.hashcode.dawadeals.recievers.ConnectivityReceiver;
-import me.hashcode.dawadeals.ui.mainActivity.MainActivity;
-import me.hashcode.dawadeals.ui.login.LoginActivity;
+import me.hashcode.dawadeals.ui.login.LoginFragment;
 import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 import me.hashcode.dawadeals.ui.splash.Splash;
 import me.hashcode.dawadeals.utils.Constants;
 import me.hashcode.dawadeals.utils.LocaleHelper;
 import me.hashcode.dawadeals.utils.MessagesHandler;
-import timber.log.Timber;
 
 @Module
 public abstract class BaseActivity extends AppCompatActivity
         implements OnConnectionStatusChanged {
 
-    public static Class homeClass = MainActivity.class;
+    public static Class homeClass = MainActivityGoogleSample.class;
     public final BaseActivity activity;
     @SuppressWarnings("unused")
 //    @Nullable
@@ -205,19 +203,17 @@ public abstract class BaseActivity extends AppCompatActivity
     public void updateSettings() {
 
     }
-
+    Bundle savedInstanceState;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Timber.tag("fuckingonCreate").e("onCreate : "+getClass().getSimpleName());
         if (LocaleHelper.getLanguage().toLowerCase().contains("e")) {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
         } else {
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
         }
-        if (savedInstanceState != null)
-            data = savedInstanceState;
-        else data = getIntent().getBundleExtra(Constants.DATA);
+        this.savedInstanceState = savedInstanceState;
+        data = getIntent().getBundleExtra(Constants.DATA);
         if (data == null)
             data = new Bundle();
 //        ProcessLifecycleOwner.get()
@@ -230,14 +226,22 @@ public abstract class BaseActivity extends AppCompatActivity
 //                }));
     }
 
-    boolean hasStarted = false;
 
     @Override
-    protected void onStart() {
-        super.onStart();
-        if (hasStarted)
-            return;
-        hasStarted = true;
+    public void setContentView(int layoutResID) {
+        super.setContentView(layoutResID);
+        if (savedInstanceState == null)
+        initViewsInternal();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        data = savedInstanceState;
+        initViewsInternal();
+
+    }
+    private final void initViewsInternal(){
         getWindow().getDecorView().setFocusable(true);
         getWindow().getDecorView().setFocusableInTouchMode(true);
         ButterKnife.bind(this);
@@ -259,7 +263,6 @@ public abstract class BaseActivity extends AppCompatActivity
 //            }
 //        if (lang!=null)
 //        lang.setVisibility(View.VISIBLE);
-
     }
 
     @Override
@@ -274,7 +277,7 @@ public abstract class BaseActivity extends AppCompatActivity
 //            drawer.closeDrawer(GravityCompat.START);
 //        } else if (activity instanceof Home)
 //            moveTaskToBack(true);
-//        else if (activity instanceof LoginActivity)
+//        else if (activity instanceof LoginFragment)
 //            moveTaskToBack(true);
 //        else if (activity instanceof Splash
 //                || activity instanceof Login
@@ -324,7 +327,7 @@ public abstract class BaseActivity extends AppCompatActivity
 //            return;
 //        }
         if (false&&UserDetails.readUser() == null) {
-            startActivity(LoginActivity.class);
+            startActivity(LoginFragment.class);
             finishAffinity();
             return;
         }
@@ -340,7 +343,7 @@ public abstract class BaseActivity extends AppCompatActivity
 //                Utils.getStringRes(R.string.logout_confirm_message),
 //                v -> {
 //                    UserDetails.removeUser();
-//                    startActivity(LoginActivity.class);
+//                    startActivity(LoginFragment.class);
 //                    finishAffinity();
 //                });
 //    }

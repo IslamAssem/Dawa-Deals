@@ -23,4 +23,6 @@
     <color name="red">#FF0545</color>
     <color name="colorSecondaryLight">#32395B</color>
     <color name="colorSecondaryPurple">#202437</color>
+    <color name="colorLightPurple">#7C8BD0</color>
+    <color name="bdbdbd">#BDBDBD</color>
 </resources>

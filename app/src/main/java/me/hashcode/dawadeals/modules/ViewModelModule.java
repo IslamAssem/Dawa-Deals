@@ -25,11 +25,6 @@ public abstract class ViewModelModule {
     @IntoMap
     @ViewModelKey(SplashViewModel.class)
     protected abstract ViewModel splashViewModel(SplashViewModel splashViewModel);
-
-    @Binds
-    @IntoMap
-    @ViewModelKey(LoginViewModel.class)
-    protected abstract ViewModel loginViewModel(LoginViewModel splashViewModel);
     @Binds
     @IntoMap
     @ViewModelKey(HomeViewModel.class)
@@ -46,4 +41,9 @@ public abstract class ViewModelModule {
     @IntoMap
     @ViewModelKey(TradesViewModel.class)
     protected abstract ViewModel tradesViewModel(TradesViewModel tradesViewModel);
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(LoginViewModel.class)
+    protected abstract ViewModel loginViewModel(LoginViewModel tradesViewModel);
 }

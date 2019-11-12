@@ -177,6 +177,15 @@ public class Utils {
     public static <T>boolean isEmpty(List<T> list) {
         return list == null||list.size() == 0;
     }
+    public static <T>void removeRedundant(List<T> list,List<T> anotherList) {
+        if (Utils.isEmpty(list)||isEmpty(anotherList))
+            return;
+        for (int i=0;i<anotherList.size();i++)
+            if (list.contains(anotherList.get(i)))
+            {
+                anotherList.remove(i--);
+            }
+    }
 
     public static <T>boolean isEmpty(T...arr) {
         return arr == null||arr.length == 0;

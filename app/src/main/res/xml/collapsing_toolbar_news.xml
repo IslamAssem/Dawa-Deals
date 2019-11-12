@@ -122,9 +122,6 @@
             app:layout_constraintBottom_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             >
-            <CustomAttribute
-                app:attributeName="textColor"
-                app:customColorValue="#FFFFFF" />
         </Constraint>
 
     </ConstraintSet>

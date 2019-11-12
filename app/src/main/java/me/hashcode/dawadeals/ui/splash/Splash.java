@@ -15,12 +15,10 @@ import dagger.android.AndroidInjection;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.data.model.user.UserDetails;
 import me.hashcode.dawadeals.factory.ViewModelFactory;
-import me.hashcode.dawadeals.ui.mainActivity.MainActivity;
+import me.hashcode.dawadeals.ui.login.LoginFragment;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
-import me.hashcode.dawadeals.ui.login.LoginActivity;
 import me.hashcode.dawadeals.ui.login.LoginResult;
 import me.hashcode.dawadeals.ui.login.LoginViewModel;
-import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 
 public class Splash extends BaseActivity {
     @Override
@@ -53,7 +51,7 @@ public class Splash extends BaseActivity {
                 if (loginResult.getError() != null) {
                     forceLoad();
                 } else if (loginResult.getNotFound()!=null){
-                    startActivity(LoginActivity.class);
+                    startActivity(LoginFragment.class);
                     finishAffinity();
                 }else {
                     //setResult(Activity.RESULT_OK);
@@ -88,7 +86,7 @@ public class Splash extends BaseActivity {
             public void run() {
                 home();
 //                if(UserDetails.readUser() == null){
-//                startActivity(LoginActivity.class);
+//                startActivity(LoginFragment.class);
 //                finishAffinity();
 //                }
 //                else

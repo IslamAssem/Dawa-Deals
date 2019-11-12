@@ -47,6 +47,12 @@ public class TradesFragment extends BaseFragment {
     public void initViews() {
         tradesRecycler.setLayoutManager(new LinearLayoutManager(context));
         tradesViewModel.getLatestTrades();
+        tradesRecycler.setAdapter(tradesAdapter = new TradesAdapter(new OnItemClickListener(){
+            @Override
+            public void OnItemClick(Object data, View view, int position) {
+                super.OnItemClick(data, view, position);
+            }
+        }));
 
     }
 
@@ -77,15 +83,6 @@ public class TradesFragment extends BaseFragment {
     }
 
     private void showTransactions(List<Transaction> transactions) {
-        if (tradesAdapter == null){
-            tradesRecycler.setAdapter(tradesAdapter = new TradesAdapter(transactions,new OnItemClickListener(){
-                @Override
-                public void OnItemClick(Object data, View view, int position) {
-                    super.OnItemClick(data, view, position);
-                }
-            }));
-        }
-        else
             tradesAdapter.add(transactions);
     }
 

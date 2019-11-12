@@ -40,13 +40,18 @@ public class WalletFragment extends BaseFragment {
     private WalletTradesAdapter transactionsAdapter;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
-            ViewGroup container, Bundle savedInstanceState) {
+                             ViewGroup container, Bundle savedInstanceState) {
         return  inflater.inflate(R.layout.fragment_wallet, container, false);
     }
 
     @Override
     public void initViews() {
-        walletTrades.setLayoutManager(new LinearLayoutManager(context));
+        walletTrades.setLayoutManager(new LinearLayoutManager(context));walletTrades.setAdapter(transactionsAdapter = new WalletTradesAdapter(new OnItemClickListener(){
+            @Override
+            public void OnItemClick(Object data, View view, int position) {
+                super.OnItemClick(data, view, position);
+            }
+        }));
         walletViewModel.getWalletTrades();
 
     }
@@ -78,14 +83,6 @@ public class WalletFragment extends BaseFragment {
     }
 
     private void showTransactions(List<Transaction> transactions) {
-        if (transactionsAdapter == null)
-            walletTrades.setAdapter(transactionsAdapter = new WalletTradesAdapter(transactions,new OnItemClickListener(){
-                @Override
-                public void OnItemClick(Object data, View view, int position) {
-                    super.OnItemClick(data, view, position);
-                }
-            }));
-        else
             transactionsAdapter.add(transactions);
     }
 

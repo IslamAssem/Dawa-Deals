@@ -1,5 +1,7 @@
 package me.hashcode.dawadeals.data.model.trade;
 
+import androidx.annotation.Nullable;
+
 import com.islam.custom.stickyHeader.StickyMainData;
 
 import java.util.ArrayList;
@@ -7,6 +9,7 @@ import java.util.List;
 
 public class Transaction implements StickyMainData {
     public static final int TYPE_BUY = 2;
+    int id;
    String name;
    int quantity;
    int discount;
@@ -28,6 +31,7 @@ public class Transaction implements StickyMainData {
         for (int i = 0;i<100;i++){
             ad  =new Transaction();
             ad.name = "Pharma";
+            ad.id = i;
             ad.quantity = 10000;
             ad.discount = i;
             ad.price = "10.75";
@@ -124,5 +128,20 @@ public class Transaction implements StickyMainData {
 
     public void setPartDeal(String partDeal) {
         this.partDeal = partDeal;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public boolean equals(@Nullable Object obj) {
+        if (obj instanceof Transaction)
+            return ((Transaction) obj).id==id;
+        return false;
     }
 }

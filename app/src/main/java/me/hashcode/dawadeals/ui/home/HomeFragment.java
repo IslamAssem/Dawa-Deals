@@ -153,14 +153,6 @@ public class HomeFragment extends BaseFragment {
     }
 
     private void showTransactions(List<Transaction> transactions) {
-        if (transactionsAdapter == null)
-            latestTransaction.setAdapter(transactionsAdapter = new TransactionsAdapter(transactions,new OnItemClickListener(){
-                @Override
-                public void OnItemClick(Object data, View view, int position) {
-                    super.OnItemClick(data, view, position);
-                }
-            }));
-        else
         transactionsAdapter.add(transactions);
     }
 
@@ -185,6 +177,13 @@ public class HomeFragment extends BaseFragment {
                     super.OnItemClick(data, view, position);
                 }
             }));
+        latestTransaction.setAdapter(transactionsAdapter = new TransactionsAdapter(new OnItemClickListener(){
+            @Override
+            public void OnItemClick(Object data, View view, int position) {
+                super.OnItemClick(data, view, position);
+            }
+        }));
+
        // latestTransaction.addItemDecoration(new StickHeaderItemDecoration(transactionsAdapter));
         DividerItemDecoration adsDividerItemDecoration = new DividerItemDecoration(adsRecycler.getContext(),
                 layoutManager.getOrientation());

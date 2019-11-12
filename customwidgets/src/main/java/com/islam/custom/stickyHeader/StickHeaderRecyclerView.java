@@ -65,6 +65,13 @@ public abstract class StickHeaderRecyclerView<D extends StickyMainData, H extend
         mData.addAll(datas);
     }
 
+    public void setHeaderAndData(@NonNull List<D> datas) {
+        if (mData == null) {
+            mData = new ArrayList<>();
+        }
+        mData.addAll(datas);
+    }
+
     protected int getViewType(int pos){
         return 0;
     }

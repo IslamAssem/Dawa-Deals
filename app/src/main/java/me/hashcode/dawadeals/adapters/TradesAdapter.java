@@ -20,6 +20,7 @@ import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.databinding.RecyclerTradeBinding;
 import me.hashcode.dawadeals.databinding.RecyclerWalletTradeBinding;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
+import me.hashcode.dawadeals.utils.Utils;
 
 public class TradesAdapter extends StickHeaderRecyclerView<Transaction, HeaderDataImpl> {
 
@@ -31,20 +32,16 @@ public class TradesAdapter extends StickHeaderRecyclerView<Transaction, HeaderDa
         transactions = new ArrayList<>();
         setHeaderAndData(transactions,new HeaderDataImpl(HeaderDataImpl.HEADER_TYPE_1,R.layout.recycler_trade_header));
     }
-
-    public TradesAdapter(List<Transaction> transactions, OnItemClickListener ontranactionClick) {
-        this.transactions = transactions;
-        this.ontranactionClick = ontranactionClick;
-        setHeaderAndData(transactions,new HeaderDataImpl(HeaderDataImpl.HEADER_TYPE_1,R.layout.recycler_trade_header));
-    }
     public void add(Transaction... transactions){
-        int start = getItemCount();
-        this.transactions.addAll(Arrays.asList((transactions)));
-        notifyItemRangeInserted(start, transactions.length);
+        this.add(Arrays.asList((transactions)));
     }
     public void add(List<Transaction> transactions){
+        Utils.removeRedundant(this.transactions,transactions);
+        if (Utils.isEmpty(transactions))
+            return;
         int start = getItemCount();
         this.transactions.addAll(transactions);
+        setHeaderAndData(transactions);
         notifyItemRangeInserted(start, transactions.size());
     }
 

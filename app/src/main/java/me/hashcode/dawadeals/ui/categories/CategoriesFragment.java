@@ -43,7 +43,7 @@ import me.hashcode.dawadeals.utils.Utils;
 
 public class CategoriesFragment extends BaseFragment {
 
-    private static final String TAG = "HomeFraGMENT";
+    private static final String TAG = "CategoriesFragment";
     @BindView(R.id.search_btn)
     View search_btn;
     @BindView(R.id.search_layout)
@@ -98,7 +98,10 @@ public class CategoriesFragment extends BaseFragment {
     }
 
     private void showCats(CategoryData categoriesModels) {
-
+        if (expandableAdapter!=null){
+        categoriesRecycler.setAdapter(expandableAdapter);
+        return;
+        }
         for (int i = 0; i < categoriesModels.getCategories().size(); i++) {
             if (categoriesModels.getCategories().get(i).getParentId()==0)
                 parentCats.add(categoriesModels.getCategories().get(i));

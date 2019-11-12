@@ -2,14 +2,16 @@ package me.hashcode.dawadeals.ui.mainActivity;
 
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.NavController
 import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
+import butterknife.BindView
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import customNavigator.setupWithNavController
 import me.hashcode.dawadeals.R
+import me.hashcode.dawadeals.ui.NavigationSetup
 import me.hashcode.dawadeals.ui.base.BaseActivity
 
 //
@@ -37,40 +39,43 @@ class MainActivityGoogleSample : BaseActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_google_sample)
-        if (savedInstanceState == null) {
-        setupBottomNavigationBar()
-        } // Else, need to wait for onRestoreInstanceState
         }
 
-        override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
-        super.onRestoreInstanceState(savedInstanceState)
-        // Now that BottomNavigationBar has restored its instance state
-        // and its selectedItemId, we can proceed with setting up the
-        // BottomNavigationBar with Navigation
-        setupBottomNavigationBar()
+        override fun initViews() {
+                super.initViews()
+                setupBottomNavigationBar()
         }
 
+        fun hideBottom(hasFocus: Boolean) {
+                if (hasFocus)
+                        findViewById<BottomNavigationView>(R.id.bottom_nav)!!.visibility = View.GONE
+                else
+                        findViewById<BottomNavigationView>(R.id.bottom_nav)!!.visibility = View.VISIBLE
+
+        }
 /**
  * Called on first creation and when restoring state.
  */
 private fun setupBottomNavigationBar() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav)
 
-        val navGraphIds = listOf(R.navigation.mobile_navigation/*, R.navigation.list, R.navigation.form*/)
+        val navGraphIds = listOf(
+                R.navigation.home_navigation,R.navigation.category_navigation,
+                R.navigation.trades_navigation,
+                R.navigation.wallet_navigation,R.navigation.account_navigation
+                /*, R.navigation.list, R.navigation.form*/)
 
         // Setup the bottom navigation view with a list of navigation graphs
-        val controller = bottomNavigationView.setupWithNavController(
-        navGraphIds = navGraphIds,
-        fragmentManager = supportFragmentManager,
-        containerId = R.id.nav_host_container,
-        intent = intent
+        var nav = NavigationSetup(
+                bottomNavigationView,supportFragmentManager,R.id.nav_host_container,intent
         )
-
+        nav.navGraphIds =navGraphIds
+        nav.setupWithNavController()
         // Whenever the selected controller changes, setup the action bar.
-        controller.observe(this, Observer { navController ->
+        nav.selectedNavController.observe(this, Observer { navController ->
 //        setupActionBarWithNavController(navController)
         })
-        currentNavController = controller
+        currentNavController = nav.selectedNavController
         }
 
         override fun onSupportNavigateUp(): Boolean {

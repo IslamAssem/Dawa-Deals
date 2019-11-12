@@ -32,21 +32,18 @@ public class HomeViewModel extends BaseViewModel {
     }
 
     public void getHomeAds(){
-        progress.setValue(Utils.getStringRes(R.string.loading));
         repository.getAds(page).doOnDispose(this)
                 .subscribe(sponseredAdResponse -> {
-                    progress.setValue(null);
                     adsResponseLiveData.setValue(sponseredAdResponse.getAds());
                 },throwable -> {
                     progress.setValue(null);
-                    toast.setValue(Utils.getStringRes(R.string.network_fail)+" : "+throwable.getMessage());
                     adsResponseLiveData.setValue(null);
                 });
     }
 
     public void getLatestTranactions() {
 
-        progress.setValue(Utils.getStringRes(R.string.loading));
+//        progress.setValue(Utils.getStringRes(R.string.loading));
         repository.getTransactions(page).doOnDispose(this)
                 .subscribe(transactionsResponse -> {
                     progress.setValue(null);

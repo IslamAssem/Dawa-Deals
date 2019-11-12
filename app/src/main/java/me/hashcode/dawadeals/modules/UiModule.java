@@ -4,6 +4,7 @@ import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 import me.hashcode.dawadeals.ui.categories.CategoriesFragment;
 import me.hashcode.dawadeals.ui.home.HomeFragment;
+import me.hashcode.dawadeals.ui.login.LoginFragment;
 import me.hashcode.dawadeals.ui.mainActivity.MainActivity;
 import me.hashcode.dawadeals.ui.splash.Splash;
 import me.hashcode.dawadeals.ui.trades.TradesFragment;
@@ -30,4 +31,6 @@ public abstract class UiModule {
     abstract WalletFragment contributeWalletFragment ();
     @ContributesAndroidInjector()
     abstract TradesFragment contributeTradesFragment ();
+    @ContributesAndroidInjector()
+    abstract LoginFragment contributeLoginFragment ();
 }
