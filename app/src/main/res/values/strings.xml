@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Dawa Deals</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="am">Am</string>
+    <string name="pm">PM</string>
+    <string name="enter_valid_phone">Enter valid phone number</string>
+    <string name="phone_number_start_with_">Phone number must start with 010,011,012 and 015</string>
+    <string name="off">OFF</string>
+    <string name="le">LE</string>
+    <string name="connect_to_network">Connect to wifi or turn on mobile data!</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="login_failed">Login failed</string>
+    <string name="invalid_username">Incorrect username</string>
+    <string name="invalid_password">Incorrect password</string>
+    <string name="network_fail">Network Error</string>
+    <string name="retry_connection">Failed to connect to internet.Retry?</string>
+    <string name="log_in">Log in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="large_text">This is dummy text</string>
+    <string name="categories">Categories</string>
+    <string name="trades">Trades</string>
+    <string name="wallet">Wallet</string>
+    <string name="account">Account</string>
+    <string name="exp_date_header">Exp. Date:</string>
+    <string name="exp_date">Exp. Date</string>
+    <string name="quantity_header">Quantity:</string>
+    <string name="price_discount_header">Discount:</string>
+    <string name="product_header">Product:</string>
+    <string name="type">Type</string>
+    <string name="available_balance">Available balance</string>
+    <string name="account_summary_label"><![CDATA[> Account Summary]]></string>
+    <string name="wallet_help">
+Your fund balance is meant to \ncover the insurance fees of\n trades, Which is amounted by\n 5% of the total trade.\n\nYour available balance needs \nto meet the minimum of 5% \nof the trade value to be able \nto apply to a trade.
+</string>
+    <string name="latest_trades">Latest  Trades</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="category">Category</string>
+    <string name="product">Product</string>
+    <string name="price_discount">Price Discount</string>
+    <string name="price_egp">Price (EGP/U)</string>
+    <string name="quantity">Quantity</string>
+    <string name="part_deal">Part Deal</string>
+    <string name="market_price">Market Price</string>
+</resources>

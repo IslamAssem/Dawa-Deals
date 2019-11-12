@@ -1,0 +1,154 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+///when applying butterknife not generating files
+//apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "me.hashcode.dawadeals"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dataBinding {
+        enabled = true
+    }
+    lintOptions {
+        checkReleaseBuilds true
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {/*
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0'
+    implementation 'android.arch.navigation:navigation-runtime-ktx:1.0.0'
+
+
+
+    */
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation deps.kotlin.stdlib
+    implementation deps.support.app_compat
+    implementation deps.support.design
+    implementation deps.support.core_ktx
+    implementation deps.constraint_layout
+    implementation deps.arch_core.runtime
+
+    //
+
+
+    implementation deps.navigation.runtime_ktx
+    implementation deps.navigation.runtime_ktx
+    implementation deps.navigation.runtime_ktx
+    // Navigation
+    implementation deps.navigation.runtime_ktx
+    implementation deps.navigation.fragment_ktx
+    implementation deps.navigation.ui_ktx
+
+    // Android Testing Support Library's runner and rules
+    androidTestImplementation deps.atsl.runner
+    androidTestImplementation deps.atsl.rules
+    androidTestImplementation deps.room.testing
+    androidTestImplementation deps.arch_core.testing
+
+    // Espresso UI Testing
+    androidTestImplementation deps.espresso.core
+    androidTestImplementation deps.espresso.contrib
+    androidTestImplementation deps.espresso.intents
+
+ 
+    //expo player
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.10.6'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.10.6'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.10.6'
+    implementation 'com.google.android.exoplayer:exoplayer:2.10.6'
+    ///recyclerview
+    implementation 'jp.wasabeef:recyclerview-animators:3.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    /////////////
+
+    // ViewModel and LiveData
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+
+    // alternatively - just ViewModel
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.1.0'
+
+    // optional - Test helpers for LiveData
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+
+    implementation 'id.zelory:compressor:2.1.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    api 'com.google.dagger:dagger-android:2.25.2'
+    api 'com.google.dagger:dagger-android-support:2.25.2'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.25.2'
+
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.25.2'
+
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.2'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:4.2.2'
+
+
+    //butterknife
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+
+
+    // RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.14'
+    implementation 'android.arch.work:work-runtime:1.0.1'
+
+    // RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.2'
+
+    implementation project(path: ':customwidgets')
+    implementation project(path: ':slider')
+    implementation project(path: ':youtubeplayercore')
+    implementation project(path: ':expandablerecyclerview')
+    implementation project(path: ':showcaseviewlib')
+}

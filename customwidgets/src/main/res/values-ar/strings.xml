@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name">اتحاد كرة السلة</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">البريد الالكترونى</string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="invalid_username">اسم المستخدم غير صالح</string>
+    <string name="invalid_password">كلمة السر يجب ان تزيد عن 5 احرف</string>
+    <string name="login_failed">فشل الدخول</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="next">التالى</string>
+    <string name="off">OFF</string>
+    <string name="connect_to_network">قم بالاتصال بالواى فاى او تشغيل بيانات الهاتف!</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">الغاء</string>
+    <string name="login">تسجيل الدخول</string>
+    <!-- strings.xml -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="le"> جنيه</string>
+    <string name="enter_valid_phone">ادخل رقم هاتف صحبح</string>
+    <string name="closed">مغلق</string>
+    <string name="network_fail">خطأ فى الاتصل</string>
+    <string name="retry_connection">فشل الاتصال بالانترنت,اعادة المحاولة؟</string>
+    <string name="opened">يعمل الان</string>
+    <string name="minute">دقيقة</string>
+    <string name="logout_confirm_message">هل انت متأكد من رغبتك فى تسجبل الخروج؟</string>
+    <string name="confirm_logout">تأكبد تسجيل الخروج</string>
+    <string name="am">ص</string>
+    <string name="pm">م</string>
+    <string name="seconds"> ثانية </string>
+    <string name="hour"> ساعة </string>
+    <string name="day"> يوم </string>
+    <string name="news">الاخبار</string>
+    <string name="password">كلمة السر</string>
+    <string name="prev">السابق</string>
+    <string name="your_next_match">مباراتك القادمة</string>
+    <string name="questions">اسئلة</string>
+    <string name="in">فى</string>
+    <string name="start_exam">ابدأ الامتحان</string>
+    <string name="start_exam_confirm">هل انت جاهز لبدأ الامتحان الان؟,
+        \nمن فضلك تأكد من انه لن يتم مقاطعتك من اى شخص اثناء الامتحان</string>
+    <string name="you_dont_have_exams">ليس لديك امتحانات حاليا!</string>
+    <string name="finish_exam">انهاء</string>
+    <string name="incorrect_username_password">incorrect username or password</string>
+    <string name="continue_exam">اكمل الامتحان</string>
+    <string name="exam_finished">Exam is finished</string>
+    <string name="reload">اعادة التحميل</string>
+    <string name="you_have_to_answer_question">يجب اجابة السؤال اولا</string>
+    <string name="the_question_is_not_answered">هذا السؤال لم يتم الاجابة عليه</string>
+    <string name="app_out_work_hour_default">البرنامج خارج اوقات العمل</string>
+    <string name="app_update_prefered_message">من فضلك قم بالتحديث لاخر نسخة</string>
+    <string name="app_update_required">التحديث مطلوب</string>
+    <string name="app_update_required_message">تحديث جديد متوفر</string>
+    <string name="download_start_error">فشل بدء التحميل</string>
+    <string name="error_generic">فشل التشغيل</string>
+    <string name="phone_number_start_with_">رقم الهاتف يجب ان يبدأ ب010 ,011,012,015,011</string>
+    <string name="storage_permission_denied">تم رفض اذن الوصول الى ذاكرة الجهاز</string>
+    <string name="finish_exam_title">تم اكمال الامتحان</string>
+    <string name="finish_exam_message">لقد اكملت امتحانك وسوف يتم ارسال النتيجة على بريدك الابكنرونى.</string>
+    <string name="lang">En</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="exam_timout">انتهى وقت الامتحان </string>
+    <string name="username">اسم المستخدم</string>
+
+</resources>

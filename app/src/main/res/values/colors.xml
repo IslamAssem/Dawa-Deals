@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#131521</color>202437
+    <color name="colorPrimaryDark">#202437</color>
+    <color name="colorAccent">#19D938</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolsbackground">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="dialog_background">#ffffff</color>
+    <color name="dialog_message_color">#ffffff</color>
+    <color name="dark_text">#808080</color>
+    <color name="dialog_title_color">#BDBDBD</color>
+    <color name="green">#27AE60</color>
+    <color name="colorPrimaryLight">#E8EAF1</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="light_text">#BDBDBD</color>
+    <color name="orange">#FF7D05</color>
+    <color name="yellow">#F2C94C</color>
+    <color name="very_light_text">#E0E0E0</color>
+    <color name="purble">#7C8BD0</color>
+    <color name="red">#FF0545</color>
+    <color name="colorSecondaryLight">#32395B</color>
+    <color name="colorSecondaryPurple">#202437</color>
+</resources>

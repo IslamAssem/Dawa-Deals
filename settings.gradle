@@ -1,0 +1,2 @@
+include':app',':customwidgets' ,':slider',':youtubeplayercore', 'expandablerecyclerview',':showcaseviewlib'
+rootProject.name='Dawa Deals'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dawa Deals.iml" filepath="$PROJECT_DIR$/Dawa Deals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customwidgets/customwidgets.iml" filepath="$PROJECT_DIR$/customwidgets/customwidgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandablerecyclerview/expandablerecyclerview.iml" filepath="$PROJECT_DIR$/expandablerecyclerview/expandablerecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcaseviewlib/showcaseviewlib.iml" filepath="$PROJECT_DIR$/showcaseviewlib/showcaseviewlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slider/slider.iml" filepath="$PROJECT_DIR$/slider/slider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" filepath="$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" />
+    </modules>
+  </component>
+</project>

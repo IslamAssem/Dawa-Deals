@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="tranaction"
+            type="me.hashcode.dawadeals.data.model.trade.Transaction" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:maxLines="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:padding="4dp"
+                android:text="@{String.valueOf(tranaction.getName())}"
+                android:textColor="@color/very_light_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="@{String.valueOf(tranaction.getDiscount())+'%'}"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="@{String.valueOf(tranaction.getQuantity())}"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/expire_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="@{String.valueOf(tranaction.getExpireDate())}"
+                android:textColor="@color/purble"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/transactions_divider"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+</layout>
