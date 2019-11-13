@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.TranslateAnimation;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,16 +16,12 @@ import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SnapHelper;
 
-import com.islam.custom.stickyHeader.StickHeaderItemDecoration;
-
 import java.util.List;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import dagger.android.HasAndroidInjector;
-import me.hashcode.dawadeals.App;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.adapters.AdsAdapter;
 import me.hashcode.dawadeals.adapters.TransactionsAdapter;
@@ -196,6 +192,11 @@ public class HomeFragment extends BaseFragment {
         homeViewModel.getLatestTranactions();
         homeViewModel.getHomeAds();
      }
+
+    @Override
+    public void initVariables() {
+
+    }
 
     @Override
     public void initData(@NonNull Bundle data) {

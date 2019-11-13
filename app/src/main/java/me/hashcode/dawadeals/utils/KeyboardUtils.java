@@ -64,6 +64,11 @@ public abstract class KeyboardUtils implements LifecycleObserver{
 
     @Override
     public void onPause() {
+        try {
+            rootLayout.getViewTreeObserver().removeOnGlobalLayoutListener(keyboardLayoutListener);
+            keyboardListenersAttached = false;
+        } catch (Exception e) {
+        }
 
     }
 

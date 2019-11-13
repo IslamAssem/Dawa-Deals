@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
-import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -17,13 +16,11 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.OnClick;
 import me.hashcode.dawadeals.R;
-import me.hashcode.dawadeals.adapters.TransactionsAdapter;
 import me.hashcode.dawadeals.adapters.WalletTradesAdapter;
 import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
-import me.hashcode.dawadeals.ui.categories.CategoriesViewModel;
 import me.hashcode.dawadeals.utils.Utils;
 import smartdevelop.ir.eram.showcaseviewlib.GuideView;
 import smartdevelop.ir.eram.showcaseviewlib.config.DismissType;
@@ -53,6 +50,11 @@ public class WalletFragment extends BaseFragment {
             }
         }));
         walletViewModel.getWalletTrades();
+
+    }
+
+    @Override
+    public void initVariables() {
 
     }
 

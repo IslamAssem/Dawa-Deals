@@ -1,2 +1,2 @@
-include':app',':customwidgets' ,':slider',':youtubeplayercore', 'expandablerecyclerview',':showcaseviewlib'
+include':app',':customwidgets' ,':slider',':youtubeplayercore', 'expandablerecyclerview',':showcaseviewlib',':ChartLib'
 rootProject.name='Dawa Deals'

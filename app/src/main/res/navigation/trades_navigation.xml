@@ -8,5 +8,19 @@
         android:id="@+id/navigation_trades"
         android:name="me.hashcode.dawadeals.ui.trades.TradesFragment"
         android:label="@string/trades"
+        tools:layout="@layout/fragment_trades">
+
+        <action
+            android:id="@+id/action_trade_details"
+            app:destination="@id/navigation_trade"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_trade"
+        android:name="me.hashcode.dawadeals.ui.trade_details.TradeDetailsFragment"
+        android:label="@string/trades"
         tools:layout="@layout/fragment_trades" />
 </navigation>

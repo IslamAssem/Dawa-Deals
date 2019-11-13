@@ -3,23 +3,25 @@ package me.hashcode.dawadeals.ui.login;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.motion.widget.MotionLayout;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
 import com.islam.custom.CustomEditText;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import dagger.Module;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.data.model.user.UserDetails;
@@ -29,6 +31,9 @@ import me.hashcode.dawadeals.ui.base.BaseFragment;
 import me.hashcode.dawadeals.ui.mainActivity.MainActivity;
 import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 import me.hashcode.dawadeals.utils.KeyboardUtils;
+import me.hashcode.dawadeals.utils.Utils;
+
+import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
 @Module
 public class LoginFragment extends BaseFragment {
@@ -44,6 +49,7 @@ public class LoginFragment extends BaseFragment {
     CustomEditText password;
     @BindView(R.id.constraint_layout)
     MotionLayout constraintLayout;
+    int prevState;
 
     public LoginFragment() {
     }
@@ -92,6 +98,7 @@ public class LoginFragment extends BaseFragment {
     View loading;
     @Inject
     ViewModelFactory viewModelFactory;
+    private boolean passwordVisibility = true;
 
     @Override
     public void initViews() {
@@ -107,8 +114,13 @@ public class LoginFragment extends BaseFragment {
                 toggleViews(0);
             }
         };
-        login.setEnabled(false);
+        getView().post(new Runnable() {
+            @Override
+            public void run() {
 
+            }
+        });
+        prevState = 0;
         password.addTextChangedListener(getTextWatcher());
         username.addTextChangedListener(getTextWatcher());
 
@@ -128,6 +140,7 @@ public class LoginFragment extends BaseFragment {
             loading.setVisibility(View.VISIBLE);
             loginViewModel.login(username.getText().toString(), password.getText().toString());
         });
+        togglePassword(getView().findViewById(R.id.password_eye));
     }
 
     @Override
@@ -135,21 +148,39 @@ public class LoginFragment extends BaseFragment {
 
     }
 
+    @Override
+    public void initVariables() {
 
-    boolean prevState;
+    }
 
+    @OnClick(R.id.password_eye)
+    public void togglePassword(ImageView password_eye) {
+        passwordVisibility = Utils.showPasswordCheckBoxListener(passwordVisibility, password, password_eye);
+
+    }
 
     public void toggleViews(int height) {
-        boolean hasFocus = height > 0;
-        if (prevState == hasFocus)
+        if (!isRunning)
             return;
+        boolean hasFocus = height > 0;
+        if (prevState == 1 && hasFocus)
+            return;
+        if (prevState == -1 && !hasFocus)
+            return;
+        if (prevState == 0 && height == 0) {
+            prevState = -1;
+            return;
+        }
+        Log.e("toggleViews", "height hasFocus " + hasFocus + " : " + height);
         if (context instanceof MainActivity)
             ((MainActivity)context).hideBottom(hasFocus);
         if (context instanceof MainActivityGoogleSample)
             ((MainActivityGoogleSample)context).hideBottom(hasFocus);
         constraintLayout.transitionToStart();
         constraintLayout.transitionToEnd();
-        prevState = hasFocus;
+        if (hasFocus)
+            prevState = 1;
+        else prevState = -1;
     }
     TextWatcher tw;
     public TextWatcher getTextWatcher(){
@@ -177,6 +208,10 @@ public class LoginFragment extends BaseFragment {
 
     }
 
+    @OnClick({R.id.dont_have_account, R.id.sign_up})
+    public void register() {
+        findNavController(this).navigate(R.id.action_register);
+    }
     @Override
     public String getTAG() {
         return TAG;

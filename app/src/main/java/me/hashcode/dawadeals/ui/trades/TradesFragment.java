@@ -14,19 +14,18 @@ import java.util.List;
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.adapters.TradesAdapter;
-import me.hashcode.dawadeals.adapters.WalletTradesAdapter;
 import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
-import me.hashcode.dawadeals.ui.wallet.WalletViewModel;
 import me.hashcode.dawadeals.utils.Utils;
 import smartdevelop.ir.eram.showcaseviewlib.GuideView;
 import smartdevelop.ir.eram.showcaseviewlib.config.DismissType;
 import smartdevelop.ir.eram.showcaseviewlib.config.Gravity;
+
+import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
 public class TradesFragment extends BaseFragment {
 
@@ -51,8 +50,14 @@ public class TradesFragment extends BaseFragment {
             @Override
             public void OnItemClick(Object data, View view, int position) {
                 super.OnItemClick(data, view, position);
+                findNavController(TradesFragment.this).navigate(R.id.action_trade_details);
             }
         }));
+
+    }
+
+    @Override
+    public void initVariables() {
 
     }
 

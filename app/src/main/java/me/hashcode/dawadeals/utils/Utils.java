@@ -12,11 +12,11 @@ import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextUtils;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Base64;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -26,6 +26,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -77,7 +78,29 @@ public class Utils {
 //            sliderLayout.addSlider(new DefaultSliderView(context).image(baseURl.concat(img), false));
 //        }
 //    }
+public static boolean showPasswordCheckBoxListener(boolean prevStatus, EditText password, ImageView view) {
+    if (prevStatus) {
+        view.setImageResource(R.drawable.ic_visibility_off);
+        password.setTransformationMethod(new PasswordTransformationMethod());  //hide the password from the edit text
+    } else {
+        view.setImageResource(R.drawable.ic_visibility_on);
+        password.setTransformationMethod(null); //show the password from the edit text
+    }
+    return !prevStatus;
+}
 
+    public static boolean showPasswordCheckBoxListener(boolean prevStatus, EditText password, EditText passwordConfrim, ImageView view) {
+        if (prevStatus) {
+            view.setImageResource(R.drawable.ic_visibility_off);
+            password.setTransformationMethod(new PasswordTransformationMethod());  //hide the password from the edit text
+            passwordConfrim.setTransformationMethod(new PasswordTransformationMethod());  //hide the password from the edit text
+        } else {
+            view.setImageResource(R.drawable.ic_visibility_on);
+            password.setTransformationMethod(null); //show the password from the edit text
+            passwordConfrim.setTransformationMethod(null); //show the password from the edit text
+        }
+        return !prevStatus;
+    }
     public static Type getType(final Class<?> rawClass, final Class<?> parameterClass) {
         return new ParameterizedType() {
             @Override
@@ -612,6 +635,12 @@ public class Utils {
     public static int getColorRes(int color) {
 
         return ContextCompat.getColor(App.getInstance(),color);
+    }
+
+    @ColorInt
+    public static int getColorRes(Context context, int color) {
+
+        return ContextCompat.getColor(context, color);
     }
 
      public static Drawable getDrawableRes(int drawableRes) {

@@ -1,22 +1,15 @@
 package me.hashcode.dawadeals.ui.categories;
 
-import android.app.Dialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.TranslateAnimation;
-import android.widget.AdapterView;
-import android.widget.ExpandableListView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.lifecycle.Observer;
-import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.SnapHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,21 +18,12 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import dagger.android.HasAndroidInjector;
-import me.hashcode.dawadeals.App;
 import me.hashcode.dawadeals.R;
-import me.hashcode.dawadeals.adapters.AdsAdapter;
 import me.hashcode.dawadeals.adapters.CategoriesAdapter;
-import me.hashcode.dawadeals.adapters.TransactionsAdapter;
-import me.hashcode.dawadeals.data.model.ads.Ad;
 import me.hashcode.dawadeals.data.model.category.CategoryData;
 import me.hashcode.dawadeals.data.model.category.CategoryDetails;
-import me.hashcode.dawadeals.data.model.trade.Transaction;
-import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
-import me.hashcode.dawadeals.ui.home.HomeViewModel;
-import me.hashcode.dawadeals.utils.Utils;
 
 public class CategoriesFragment extends BaseFragment {
 
@@ -144,6 +128,11 @@ public class CategoriesFragment extends BaseFragment {
         categoriesRecycler.setLayoutManager(layoutManager = new LinearLayoutManager(context,RecyclerView.VERTICAL,false));
          categoriesViewModel.getCategories();
         }
+
+    @Override
+    public void initVariables() {
+
+    }
 
     @Override
     public void initData(@NonNull Bundle data) {

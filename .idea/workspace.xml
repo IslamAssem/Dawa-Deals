@@ -11,19 +11,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98357759-045d-4ad6-920f-e5879fe603f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/category_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/home_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_rc01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_rc01_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChartLib/ChartLib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/CustomMarkerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fade_red.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_visibility_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/marker_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_register.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -33,48 +51,43 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_1_0_alpha06_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_migration_2_1_0_alpha06_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_1_0_alpha06_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_testing_2_1_0_alpha06_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TransactionsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TransactionsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/trade/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/trade/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/splash/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/splash/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_password_eye.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_visibility_off.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/collapsing_toolbar_news.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/collapsing_toolbar_news.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/stickyHeader/StickHeaderRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/stickyHeader/StickHeaderRecyclerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/src/main/java/customNavigator/NavigationExtensions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/android/arch/work/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/arch/core/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/cardview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/lifecycle/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/recyclerview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/viewpager/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customwidgets/customwidgets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/customwidgets.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,74 +114,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
+            <state relative-caret-position="94">
+              <caret line="183" column="54" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/YAxis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="172" column="46" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="46" />
+              <folding>
+                <element signature="e#4259#4260#0" expanded="true" />
+                <element signature="e#4290#4291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="239" column="40" selection-start-line="239" selection-start-column="40" selection-end-line="239" selection-end-column="40" />
+              <folding>
+                <element signature="e#5996#5997#0" expanded="true" />
+                <element signature="e#6058#6059#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/stickyHeader/StickHeaderRecyclerView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="48" column="137" selection-start-line="48" selection-start-column="137" selection-end-line="48" selection-end-column="137" />
+            <state relative-caret-position="185">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -179,45 +167,45 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Kotlin File" />
         <option value="navigationResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>detachNavHostFragment</find>
-      <find>BottomNavigationView</find>
-      <find>setupDeepLinks</find>
-      <find>navGraphIds</find>
-      <find>obtainNavHostFragment</find>
-      <find>setOnNavigationItemSelectedListener</find>
-      <find>index == 0</find>
-      <find>detach</find>
-      <find>isOnFirstFragment</find>
-      <find>static</find>
-      <find>firstFragmentGraphId</find>
-      <find>selectedNavController</find>
-      <find>fragmentTag</find>
-      <find>setValue</find>
-      <find>append</find>
-      <find>nav</find>
-      <find>label</find>
-      <find>oncrea</find>
-      <find>putc</find>
-      <find>setC</find>
-      <find>oncreate</find>
-      <find>add</find>
-      <find>textColor</find>
-      <find>initviews</find>
-      <find>add(Transaction... transactions)</find>
-      <find>pur</find>
       <find>initvi</find>
-      <find>navView</find>
-      <find>androidx.constraintlayout.motion.widget.MotionLayout</find>
-      <find>room</find>
+      <find>rootLayout =</find>
+      <find>onres</find>
+      <find>_label</find>
+      <find>initdata</find>
+      <find>initviews</find>
+      <find>prevState</find>
+      <find>findna</find>
+      <find>ontranactionClick</find>
+      <find>activity</find>
+      <find>#7C8BD0</find>
+      <find>Utils</find>
+      <find>chart</find>
+      <find>set</find>
+      <find>ondraw</find>
+      <find>purble</find>
+      <find>mBorderPaint</find>
+      <find>Paint</find>
+      <find>R.layout</find>
+      <find>drawtext</find>
+      <find>.R</find>
+      <find>draw</find>
+      <find>drawText</find>
+      <find>mDescription.</find>
+      <find>getcolor</find>
+      <find>mNoDataText</find>
+      <find>desc</find>
+      <find>grid</find>
+      <find>R.la</find>
+      <find>chart11</find>
     </findStrings>
     <replaceStrings>
       <replace>extends BaseViewModel</replace>
@@ -238,6 +226,7 @@
       <replace>app:layout_constraintHorizontal_weight</replace>
       <replace>app</replace>
       <replace>androidx.constraintlayout.widget.ConstraintLayout</replace>
+      <replace>register</replace>
     </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -252,57 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/splash/Splash.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/versions.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_trades.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_wallet.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_trade.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_trade_header.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" />
-        <option value="$PROJECT_DIR$/customwidgets/src/main/java/customNavigator/NavigationExtensions.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationExtensions.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/home_navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/category_navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeViewModel.java" />
         <option value="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/stickyHeader/StickHeaderRecyclerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/collapsing_toolbar_news.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/trade/Transaction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TransactionsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_visibility_on.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_visibility_off.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtilsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtilsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradeDetailsFragment.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/ChartLib/build.gradle" />
+        <option value="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/CustomMarkerView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/marker_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/fade_red.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java" />
+        <option value="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" />
       </list>
     </option>
   </component>
@@ -321,6 +310,18 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,22 +389,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,7 +403,7 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hashkeystore.jks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -427,18 +412,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="me.hashcode.dawadeals.adapters" />
+      <recent name="me.hashcode.dawadeals.ui" />
       <recent name="me.hashcode.dawadeals.ui.trades" />
-      <recent name="me.hashcode.dawadeals.ui.categories" />
-      <recent name="me.hashcode.dawadeals.data.model.trade" />
-      <recent name="me.hashcode.dawadeals.modules" />
+      <recent name="me.hashcode.dawadeals.utils" />
+      <recent name="me.hashcode.dawadeals.ui.register" />
+      <recent name="me.hashcode.dawadeals.adapters" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
       <recent name="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui" />
       <recent name="$PROJECT_DIR$/app/src/main/res/navigation" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,7 +524,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="975" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Captures" order="0" sideWeight="0.5023184" side_tool="true" weight="0.28202367" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49768162" visible="true" weight="0.24004306" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="2" sideWeight="0.4994618" visible="true" weight="0.42945737" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32921174" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5224806" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50053823" side_tool="true" weight="0.30139104" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4994618" weight="0.32248062" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32938644" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Fabric" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.24757804" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Captures" order="0" sideWeight="0.5023184" side_tool="true" weight="0.28202367" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49768162" visible="true" weight="0.32615715" />
       <window_info id="Structure" order="2" side_tool="true" />
@@ -551,13 +565,13 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32868218" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32921174" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4994618" weight="0.5627907" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.4994618" weight="0.40465117" />
       <window_info anchor="bottom" id="TODO" order="3" weight="0.32921174" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5224806" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32921174" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50053823" side_tool="true" weight="0.30139104" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Build" order="8" sideWeight="0.4994618" visible="true" weight="0.5736434" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4994618" weight="0.572093" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32938644" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -566,7 +580,7 @@
       <window_info anchor="right" id="Fabric" order="4" />
       <window_info anchor="right" id="Preview" order="5" weight="0.32938644" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,7 +611,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java</url>
-          <line>141</line>
+          <line>165</line>
           <properties class="me.hashcode.dawadeals.ui.login.LoginFragment" method="toggleViews" />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
@@ -609,15 +623,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java</url>
-          <line>149</line>
+          <line>182</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java</url>
-          <line>145</line>
+          <line>178</line>
           <properties />
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/customwidgets/src/main/java/customNavigator/NavigationExtensions.kt</url>
@@ -640,11 +666,23 @@
       </configuration>
       <configuration name="Remote">
         <watch expression="expandableList.getUnflattenedPosition(8)" language="JAVA" />
+        <watch expression="rootLayout.getRootView().getHeight()" language="JAVA" />
+        <watch expression="rootLayout.getHeight()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>rootLayout.getHeight()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rootLayout.getRootView().getHeight()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>navHostFragment</expression-string>
         <language-id>JAVA</language-id>
@@ -683,360 +721,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="185" column="19" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
-          <folding>
-            <element signature="e#8397#8398#0" expanded="true" />
-            <element signature="e#8433#8434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/android/text/TextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="601" column="26" selection-start-line="601" selection-start-column="26" selection-end-line="601" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/FragmentTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="398" column="31" selection-start-line="398" selection-start-column="31" selection-end-line="398" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/home_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/category_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/trade/LatestTransactionsResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/MutableLiveData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TransactionsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding>
-            <element signature="e#6112#6113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/trade/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-          <folding>
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2290#2291#0" expanded="true" />
-            <element signature="e#2344#2345#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2668#2669#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="e#2896#2897#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="185" column="38" selection-start-line="185" selection-start-column="38" selection-end-line="185" selection-end-column="38" />
-          <folding>
-            <element signature="e#5960#5961#0" expanded="true" />
-            <element signature="e#6013#6014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-          <folding>
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_10_gray.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationExtensions.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
-          <folding>
-            <element signature="e#24549#24550#0" expanded="true" />
-            <element signature="e#24576#24577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment-ktx/2.2.0-alpha01/2716ff9737ae9d7dce15bc4c9647d1deccf3eb55/navigation-fragment-ktx-2.2.0-alpha01-sources.jar!/androidx/navigation/fragment/Fragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.2.0-alpha01/6970cb4506bc476c6e19a37d582e9a001fd3d373/navigation-fragment-2.2.0-alpha01-sources.jar!/androidx/navigation/fragment/NavHostFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="101" column="33" lean-forward="true" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1839#1847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/category/CategoryData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/MessagesHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="48" column="137" selection-start-line="48" selection-start-column="137" selection-end-line="48" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/stickyHeader/StickHeaderRecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1044,38 +728,418 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/WalletTradesAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/collapsing_toolbar_news.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="54" selection-end-line="61" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15934" column="38" selection-start-line="15934" selection-start-column="32" selection-end-line="15934" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c44358c934e2b165cca5e128949f821a/constraintlayout-2.0.0-alpha2/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="40" column="10" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/android/view/ViewTreeObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="585" column="30" lean-forward="true" selection-start-line="585" selection-start-column="30" selection-end-line="585" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtilsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/KeyboardUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="195">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_01.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_register.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="202">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="76" column="60" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <folding>
+            <element signature="e#2213#2231#0" expanded="true" />
+            <element signature="e#2879#2897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+          <folding>
+            <element signature="e#5489#5490#0" expanded="true" />
+            <element signature="e#5515#5516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#6086#6087#0" expanded="true" />
+            <element signature="e#6112#6113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        <state relative-caret-position="64">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="e#6995#6996#0" expanded="true" />
+            <element signature="e#7021#7022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret column="118" selection-start-column="118" selection-end-column="118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="246">
+          <caret line="68" column="41" selection-start-line="63" selection-start-column="37" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/FSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+        </state>
+      </provider>
+      <provider editor-type-id="nav-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/trades_navigation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#1054#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="nav-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/marker_view.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/CustomMarkerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="645" column="45" selection-start-line="645" selection-start-column="45" selection-end-line="645" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/android/graphics/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1047" column="34" selection-start-line="1047" selection-start-column="25" selection-end-line="1047" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="487" column="17" selection-start-line="487" selection-start-column="17" selection-end-line="487" selection-end-column="17" />
+          <folding>
+            <element signature="e#20073#20074#0" expanded="true" />
+            <element signature="e#20125#20126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBarLineScatterCandleBubbleDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarLineScatterCandleBubbleData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#40229#40230#0" expanded="true" />
+            <element signature="e#40273#40274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="726" column="23" selection-start-line="726" selection-start-column="19" selection-end-line="726" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/Description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="430" column="44" selection-start-line="430" selection-start-column="32" selection-end-line="430" selection-end-column="44" />
+          <folding>
+            <element signature="e#34567#34568#0" expanded="true" />
+            <element signature="e#34609#34610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/fade_red.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/YAxis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="172" column="46" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="46" />
+          <folding>
+            <element signature="e#4259#4260#0" expanded="true" />
+            <element signature="e#4290#4291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="183" column="54" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="239" column="40" selection-start-line="239" selection-start-column="40" selection-end-line="239" selection-end-column="40" />
+          <folding>
+            <element signature="e#5996#5997#0" expanded="true" />
+            <element signature="e#6058#6059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
         </state>
       </provider>
     </entry>

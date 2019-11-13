@@ -18,7 +18,6 @@ import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.data.model.trade.HeaderDataImpl;
 import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.databinding.RecyclerTradeBinding;
-import me.hashcode.dawadeals.databinding.RecyclerWalletTradeBinding;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.utils.Utils;
 
@@ -54,13 +53,13 @@ public class TradesAdapter extends StickHeaderRecyclerView<Transaction, HeaderDa
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         RecyclerTradeBinding tranactionsBinding = RecyclerTradeBinding.
                 inflate(inflater, parent, false);
-        return new WalletTradeViewHolder(tranactionsBinding);
+        return new TradeViewHolder(tranactionsBinding);
     }
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        if (holder instanceof WalletTradeViewHolder)
-            ((WalletTradeViewHolder)holder).bind(transactions.get(position));
+        if (holder instanceof TradeViewHolder)
+            ((TradeViewHolder) holder).bind(transactions.get(position), ontranactionClick);
 
     }
 
@@ -74,17 +73,24 @@ public class TradesAdapter extends StickHeaderRecyclerView<Transaction, HeaderDa
 
     }
 
-    public static class WalletTradeViewHolder extends RecyclerView.ViewHolder {
+    public static class TradeViewHolder extends RecyclerView.ViewHolder {
         private final RecyclerTradeBinding binding;
 
-        public WalletTradeViewHolder(RecyclerTradeBinding binding) {
+        public TradeViewHolder(RecyclerTradeBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
 
-        public void bind(Transaction item) {
+        public void bind(Transaction item, OnItemClickListener ontranactionClick) {
             binding.setTranaction(item);
             binding.executePendingBindings();
+            if (ontranactionClick != null)
+                binding.getRoot().setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        ontranactionClick.OnItemClick(item, v, getAdapterPosition());
+                    }
+                });
         }
     }
     public static class HeaderViewHolder extends RecyclerView.ViewHolder {

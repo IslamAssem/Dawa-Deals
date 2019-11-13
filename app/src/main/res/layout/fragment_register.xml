@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_register"
+        tools:context=".ui.activity.login.LoginActivity"
+        tools:showPaths="false">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:tint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_logo" />
+
+
+        <TextView
+            android:id="@+id/username_label"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:gravity="center|start"
+            android:maxLines="1"
+            android:minHeight="24dp"
+            android:paddingStart="6dp"
+            android:text="Email Address"
+            android:textColor="@color/dark_text"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/password_label"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center|start"
+            android:maxLines="1"
+            android:minHeight="24dp"
+            android:paddingStart="6dp"
+            android:text="@string/password"
+            android:textColor="@color/dark_text"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/confirm_password_label"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center|start"
+            android:maxLines="1"
+            android:minHeight="24dp"
+            android:paddingStart="6dp"
+            android:text="@string/password"
+            android:textColor="@color/dark_text"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/confirm_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.islam.custom.CustomEditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle_border_primary"
+            android:gravity="center|start"
+            android:hint="@string/username"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:minHeight="60dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/colorLightPurple"
+            android:textColorHint="@color/dark_text"
+            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="moha_2" />
+
+        <com.islam.custom.CustomEditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle_border_primary"
+            android:gravity="center|start"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/log_in"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minHeight="60dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/colorLightPurple"
+            android:textColorHint="@color/dark_text"
+            app:layout_constraintBottom_toTopOf="@+id/confirm_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="123456789" />
+
+
+        <com.islam.custom.CustomEditText
+            android:id="@+id/confirm_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle_border_primary"
+            android:gravity="center|start"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/log_in"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:minHeight="60dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/colorLightPurple"
+            android:textColorHint="@color/dark_text"
+            app:layout_constraintBottom_toTopOf="@+id/register"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="123456789" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_rectangle_border_primary_accent"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confirm_password"
+            app:layout_constraintVertical_bias="0.93"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/password"
+            app:layout_constraintStart_toStartOf="@+id/password"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/dont_have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Already have an account?"
+            android:textColor="@color/bdbdbd"
+            app:layout_constraintEnd_toStartOf="@+id/sign_up"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/register"
+            app:layout_constraintTop_toBottomOf="@+id/register" />
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="login"
+            android:textColor="@color/yellow"
+            app:layout_constraintEnd_toEndOf="@+id/register"
+            app:layout_constraintStart_toEndOf="@+id/dont_have_account"
+            app:layout_constraintTop_toBottomOf="@+id/register" />
+
+        <ImageView
+            android:id="@+id/password_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="@+id/password"
+            app:layout_constraintTop_toTopOf="@+id/password"
+            app:srcCompat="@drawable/ic_visibility_off" />
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</LinearLayout>

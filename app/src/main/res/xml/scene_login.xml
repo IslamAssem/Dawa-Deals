@@ -14,20 +14,27 @@
             android:id="@+id/logo"
             android:layout_width="156dp"
             android:layout_height="162dp"
-            android:layout_marginBottom="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toTopOf="parent" />
         <Constraint
             android:id="@+id/login"
-            android:layout_width="250dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/password"/>
+            app:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/bottom">
@@ -35,7 +42,7 @@
             android:id="@+id/logo"
             android:layout_width="156dp"
             android:layout_height="162dp"
-            android:layout_marginTop="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/username"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -43,11 +50,22 @@
             android:id="@+id/login"
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:layout_marginBottom="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password"/>
+        <Constraint
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:minHeight="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     </ConstraintSet>
 

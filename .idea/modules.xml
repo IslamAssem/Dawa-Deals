@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChartLib/ChartLib.iml" filepath="$PROJECT_DIR$/ChartLib/ChartLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dawa Deals.iml" filepath="$PROJECT_DIR$/Dawa Deals.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customwidgets/customwidgets.iml" filepath="$PROJECT_DIR$/customwidgets/customwidgets.iml" />

@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
         android:name=".App">
         <activity
             android:name=".ui.splash.Splash"

@@ -1,7 +1,6 @@
 package me.hashcode.dawadeals.ui.base;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,8 +13,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import butterknife.ButterKnife;
 import dagger.android.HasAndroidInjector;
 import me.hashcode.dawadeals.App;
@@ -25,13 +22,13 @@ import me.hashcode.dawadeals.utils.Utils;
 public abstract class BaseFragment extends Fragment implements HasTag {
      public Context context;
      private View view;
+    public boolean isRunning;
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
         this.context = context;
     }
-
 
     @Nullable
     @Override
@@ -59,11 +56,13 @@ public abstract class BaseFragment extends Fragment implements HasTag {
     @Override
     public void onResume() {
         super.onResume();
+        isRunning = true;
     }
 
     @Override
     public void onPause() {
         super.onPause();
+        isRunning = false;
     }
 
     @Override
@@ -100,6 +99,8 @@ public abstract class BaseFragment extends Fragment implements HasTag {
     }
 
     public abstract void initViews();
+
+    public abstract void initVariables();
     public abstract void initData(@NonNull Bundle data);
     public abstract void initViewModel();
 }

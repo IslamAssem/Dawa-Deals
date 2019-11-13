@@ -148,6 +148,7 @@ dependencies {/*
 
     implementation project(path: ':customwidgets')
     implementation project(path: ':slider')
+    implementation project(path: ':ChartLib')
     implementation project(path: ':youtubeplayercore')
     implementation project(path: ':expandablerecyclerview')
     implementation project(path: ':showcaseviewlib')
