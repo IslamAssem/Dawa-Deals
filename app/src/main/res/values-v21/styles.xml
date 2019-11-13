@@ -14,6 +14,7 @@
         <item name="colorOnPrimary">@color/colorPrimary</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">@font/titillium_web</item>
         <item name="windowActionBarOverlay">true</item>
         <item name="android:windowSharedElementsUseOverlay">false</item>
         <item name="android:windowContentTransitions">true</item>
