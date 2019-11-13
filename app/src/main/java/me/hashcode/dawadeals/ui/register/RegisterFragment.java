@@ -14,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.motion.widget.MotionLayout;
+import androidx.fragment.app.FragmentActivity;
 
 import com.islam.custom.CustomEditText;
 
@@ -30,6 +31,8 @@ import me.hashcode.dawadeals.ui.mainActivity.MainActivity;
 import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 import me.hashcode.dawadeals.utils.KeyboardUtils;
 import me.hashcode.dawadeals.utils.Utils;
+
+import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
 @Module
 public class RegisterFragment extends BaseFragment {
@@ -172,6 +175,14 @@ public class RegisterFragment extends BaseFragment {
             };
         return tw;
 
+    }
+
+    @OnClick({R.id.already_have_account, R.id.login})
+    public void register() {
+        FragmentActivity act = getActivity();
+        if (act !=null)
+        getActivity().onBackPressed();
+        else findNavController(this).navigate(R.id.action_login);
     }
 
     @Override

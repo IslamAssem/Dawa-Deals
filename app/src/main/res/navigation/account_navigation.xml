@@ -38,5 +38,14 @@
         android:id="@+id/navigation_register"
         android:name="me.hashcode.dawadeals.ui.register.RegisterFragment"
         android:label="@string/login"
-        tools:layout="@layout/fragment_register" />
+        tools:layout="@layout/fragment_register" >
+
+        <action
+            android:id="@+id/action_login"
+            app:destination="@id/navigation_login"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
 </navigation>

@@ -155,6 +155,7 @@
             android:layout_gravity="center"
             android:background="@drawable/ic_rectangle_border_primary_accent"
             android:gravity="center"
+            android:layout_marginBottom="40dp"
             android:text="@string/sign_up"
             android:textColor="@color/colorAccent"
             android:textSize="20sp"
@@ -178,26 +179,28 @@
             app:layout_constraintVertical_bias="0.3" />
 
         <TextView
-            android:id="@+id/dont_have_account"
+            android:id="@+id/already_have_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="Already have an account?"
             android:textColor="@color/bdbdbd"
-            app:layout_constraintEnd_toStartOf="@+id/sign_up"
+            app:layout_constraintEnd_toStartOf="@+id/login"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="@+id/register"
             app:layout_constraintTop_toBottomOf="@+id/register" />
 
         <TextView
-            android:id="@+id/sign_up"
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:text="login"
             android:textColor="@color/yellow"
             app:layout_constraintEnd_toEndOf="@+id/register"
-            app:layout_constraintStart_toEndOf="@+id/dont_have_account"
+            app:layout_constraintStart_toEndOf="@+id/already_have_account"
             app:layout_constraintTop_toBottomOf="@+id/register" />
 
         <ImageView
