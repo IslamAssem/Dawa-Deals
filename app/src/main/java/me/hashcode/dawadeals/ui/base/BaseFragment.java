@@ -18,6 +18,7 @@ import dagger.android.HasAndroidInjector;
 import me.hashcode.dawadeals.App;
 import me.hashcode.dawadeals.interfaces.HasTag;
 import me.hashcode.dawadeals.utils.Utils;
+import timber.log.Timber;
 
 public abstract class BaseFragment extends Fragment implements HasTag {
      public Context context;
@@ -33,12 +34,15 @@ public abstract class BaseFragment extends Fragment implements HasTag {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        Timber.tag(this.getClass().getSimpleName()).e("onCreateView");
         return view = super.onCreateView(inflater, container, savedInstanceState);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        Timber.tag(this.getClass().getSimpleName()).e("onViewCreated");
         HasAndroidInjector androidInjector = App.getInstance();
         androidInjector.androidInjector().inject(this);
         ButterKnife.bind(this, view);
@@ -56,17 +60,20 @@ public abstract class BaseFragment extends Fragment implements HasTag {
     @Override
     public void onResume() {
         super.onResume();
+        Timber.tag(this.getClass().getSimpleName()).e("onResume");
         isRunning = true;
     }
 
     @Override
     public void onPause() {
         super.onPause();
+        Timber.tag(this.getClass().getSimpleName()).e("onPause");
         isRunning = false;
     }
 
     @Override
     public Animation onCreateAnimation(int transit, boolean enter, int nextAnim) {
+        Timber.tag(this.getClass().getSimpleName()).e("onCreateAnimation");
         Animation animation = super.onCreateAnimation(transit, enter, nextAnim);
         View view = getView();
         if (view == null)

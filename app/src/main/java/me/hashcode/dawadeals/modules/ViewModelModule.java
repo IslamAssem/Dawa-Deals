@@ -7,10 +7,12 @@ import androidx.lifecycle.ViewModelProvider;
 import dagger.Binds;
 import dagger.Module;
 import dagger.multibindings.IntoMap;
- import me.hashcode.dawadeals.factory.ViewModelFactory;
+import me.hashcode.dawadeals.factory.ViewModelFactory;
 import me.hashcode.dawadeals.ui.categories.CategoriesViewModel;
 import me.hashcode.dawadeals.ui.home.HomeViewModel;
 import me.hashcode.dawadeals.ui.login.LoginViewModel;
+import me.hashcode.dawadeals.ui.mainActivity.SearchViewModel;
+import me.hashcode.dawadeals.ui.notifications.NotificationsViewModel;
 import me.hashcode.dawadeals.ui.splash.SplashViewModel;
 import me.hashcode.dawadeals.ui.trades.TradesViewModel;
 import me.hashcode.dawadeals.ui.wallet.WalletViewModel;
@@ -44,6 +46,16 @@ public abstract class ViewModelModule {
 
     @Binds
     @IntoMap
+    @ViewModelKey(SearchViewModel.class)
+    protected abstract ViewModel searchViewModel(SearchViewModel searchViewModel);
+
+    @Binds
+    @IntoMap
     @ViewModelKey(LoginViewModel.class)
     protected abstract ViewModel loginViewModel(LoginViewModel tradesViewModel);
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(NotificationsViewModel.class)
+    protected abstract ViewModel notificationsViewModel(NotificationsViewModel notificationsViewModel);
 }

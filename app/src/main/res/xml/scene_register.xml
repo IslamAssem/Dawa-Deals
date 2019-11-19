@@ -11,8 +11,8 @@
     <ConstraintSet android:id="@+id/top">
         <Constraint
             android:id="@+id/logo"
-            android:layout_width="156dp"
-            android:layout_height="162dp"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -39,8 +39,8 @@
     <ConstraintSet android:id="@+id/bottom">
         <Constraint
             android:id="@+id/logo"
-            android:layout_width="156dp"
-            android:layout_height="162dp"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="@+id/username"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

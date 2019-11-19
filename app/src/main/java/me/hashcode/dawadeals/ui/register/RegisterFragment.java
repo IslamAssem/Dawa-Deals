@@ -167,18 +167,20 @@ public class RegisterFragment extends BaseFragment {
 
                 @Override
                 public void afterTextChanged(Editable editable) {
-                    loginViewModel.loginDataChanged(
-                            username.getText().toString(),
-                            password.getText().toString()
-                    );
+                    register();
                 }
             };
         return tw;
 
     }
 
-    @OnClick({R.id.already_have_account, R.id.login})
+    @OnClick({R.id.register})
     public void register() {
+        findNavController(this).navigate(R.id.action_account);
+
+    }
+    @OnClick({R.id.already_have_account, R.id.login})
+    public void login() {
         FragmentActivity act = getActivity();
         if (act !=null)
         getActivity().onBackPressed();

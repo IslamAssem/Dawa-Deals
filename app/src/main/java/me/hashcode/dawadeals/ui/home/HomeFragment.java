@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.TranslateAnimation;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,7 +20,6 @@ import java.util.List;
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.adapters.AdsAdapter;
 import me.hashcode.dawadeals.adapters.TransactionsAdapter;
@@ -30,15 +28,12 @@ import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
+import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 import me.hashcode.dawadeals.utils.Utils;
 
 public class HomeFragment extends BaseFragment {
 
     private static final String TAG = "HomeFraGMENT";
-    @BindView(R.id.search_btn)
-    View search_btn;
-    @BindView(R.id.search_layout)
-    View search_layout;
     @BindView(R.id.last_transactions_recycler)
     RecyclerView latestTransaction;
     @BindView(R.id.sponser_ads_recycler)
@@ -154,6 +149,8 @@ public class HomeFragment extends BaseFragment {
 
     @Override
     public void initViews() {
+        if (context instanceof MainActivityGoogleSample)
+            ((MainActivityGoogleSample) context).setTextTitle(null, true, false);
         adSnap = new PagerSnapHelper();
         adSnap.attachToRecyclerView(adsRecycler);
         adsRecycler.setLayoutManager(layoutManager = new LinearLayoutManager(context,RecyclerView.HORIZONTAL,false));
@@ -202,33 +199,6 @@ public class HomeFragment extends BaseFragment {
     public void initData(@NonNull Bundle data) {
 
     }
-
-    @OnClick(R.id.search_btn)
-    public void showSearch() {
-
-         search_layout.setVisibility(View.VISIBLE);
-         TranslateAnimation animate = new TranslateAnimation(
-                 0,
-                 0,
-                 search_layout.getHeight(),
-                 0);
-         animate.setDuration(500);
-         animate.setFillAfter(true);
-         search_layout.startAnimation(animate);
-     }
-//         if(!opened){
-//
-//         } else {
-//             view.setVisibility(View.INVISIBLE);
-//             TranslateAnimation animate = new TranslateAnimation(
-//                     0,
-//                     0,
-//                     0,
-//                     view.getHeight());
-//             animate.setDuration(500);
-//             animate.setFillAfter(true);
-//             view.startAnimation(animate);
-//         }
 
 
     @Override

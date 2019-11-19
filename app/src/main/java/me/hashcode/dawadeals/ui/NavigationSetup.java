@@ -2,22 +2,16 @@ package me.hashcode.dawadeals.ui;
 
 import android.content.Intent;
 import android.text.TextUtils;
-import android.util.Log;
 import android.util.SparseArray;
-import android.view.MenuItem;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -73,11 +67,6 @@ public class NavigationSetup implements FragmentManager.OnBackStackChangedListen
             int graphId = navHostFragment.getNavController().getGraph().getId();
             if (index == 0)
                 firstFragmentGraphId = graphId;
-
-            Log.e("graphId","navGraphId  : "+ navGraphId);
-            Log.e("graphId","graphId     : "+ graphId);
-            Log.e("graphId","fragmentTag : "+ fragmentTag);
-            Log.e("graphId","-----------------------------------------");
             // Save to the map
             graphIdToTagMap.append(graphId,fragmentTag);
             // Attach or detach nav host fragment depending on whether it's the selected item.

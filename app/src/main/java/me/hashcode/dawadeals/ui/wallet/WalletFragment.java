@@ -21,10 +21,14 @@ import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
+import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
+import me.hashcode.dawadeals.utils.Constants;
 import me.hashcode.dawadeals.utils.Utils;
 import smartdevelop.ir.eram.showcaseviewlib.GuideView;
 import smartdevelop.ir.eram.showcaseviewlib.config.DismissType;
 import smartdevelop.ir.eram.showcaseviewlib.config.Gravity;
+
+import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
 public class WalletFragment extends BaseFragment {
 
@@ -43,6 +47,8 @@ public class WalletFragment extends BaseFragment {
 
     @Override
     public void initViews() {
+        if (context instanceof MainActivityGoogleSample)
+            ((MainActivityGoogleSample) context).setTextTitle(null, false, false);
         walletTrades.setLayoutManager(new LinearLayoutManager(context));walletTrades.setAdapter(transactionsAdapter = new WalletTradesAdapter(new OnItemClickListener(){
             @Override
             public void OnItemClick(Object data, View view, int position) {
@@ -111,6 +117,22 @@ public class WalletFragment extends BaseFragment {
         guideView.getMessageView().setContentTextColor(Utils.getColorRes(R.color.white));
 
         guideView.show();
+
+    }
+
+    @OnClick(R.id.withdraw)
+    public void withdraw() {
+        Bundle bundle = new Bundle();
+        bundle.putInt(Constants.DATA, 0);
+        findNavController(this).navigate(R.id.action_wallet_transaction, bundle);
+
+    }
+
+    @OnClick(R.id.deposit)
+    public void deposit() {
+        Bundle bundle = new Bundle();
+        bundle.putInt(Constants.DATA, 2);
+        findNavController(this).navigate(R.id.action_wallet_transaction, bundle);
 
     }
 }

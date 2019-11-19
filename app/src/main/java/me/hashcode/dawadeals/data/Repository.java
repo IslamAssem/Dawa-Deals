@@ -1,18 +1,23 @@
 package me.hashcode.dawadeals.data;
 
+import java.util.List;
+
 import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 import me.hashcode.dawadeals.data.model.ads.SponseredAdResponse;
 import me.hashcode.dawadeals.data.model.category.CategoryData;
-import me.hashcode.dawadeals.data.model.news.NewsResponse;
+import me.hashcode.dawadeals.data.model.news.Notification;
+import me.hashcode.dawadeals.data.model.news.NotificationsResponse;
 import me.hashcode.dawadeals.data.model.trade.LatestTransactionsResponse;
 import me.hashcode.dawadeals.data.model.user.UserDetails;
+import me.hashcode.dawadeals.database.DatabaseManager;
 import me.hashcode.dawadeals.network.APIRequests;
 
 public class Repository {
     private static UserDetails userDetails;
     APIRequests apiRequests;
+    DatabaseManager databaseManager;
 
     public <T> Single<T> subscribe(Single<T> single) {
         return single.subscribeOn(Schedulers.io())
@@ -21,8 +26,9 @@ public class Repository {
     }
 
 
-    public Repository(APIRequests apiRequests) {
+    public Repository(APIRequests apiRequests, DatabaseManager databaseManager) {
         this.apiRequests = apiRequests;
+        this.databaseManager = databaseManager;
     }
 
     public UserDetails getUser() {
@@ -41,23 +47,28 @@ public class Repository {
         return null;//subscribe(apiRequests.login(username, password));
     }
 
-    public Single<NewsResponse> getNews(int page) {
-//        NewsResponse userResponse = new NewsResponse();
-//        userResponse.setSuccess(1);
-//        userResponse.setNewsList(News.getDummy());
-//        return Single.just(userResponse);
-        return null;//subscribe(apiRequests.getNews());
+    public Single<List<SearchEntry>> getSearch() {
+        return subscribe(databaseManager.searchDao().select());
     }
     public Single<CategoryData> getCategories() {
         return Single.just(CategoryData.getDummy());
-        //      return null;//subscribe(apiRequests.getNews());
+        //      return null;//subscribe(apiRequests.getNotifications());
     }
     public Single<SponseredAdResponse> getAds(int page) {
         return Single.just(SponseredAdResponse.getDummy());
-        //      return null;//subscribe(apiRequests.getNews());
+        //      return null;//subscribe(apiRequests.getNotifications());
     }
     public Single<LatestTransactionsResponse> getTransactions(int page) {
         return Single.just(LatestTransactionsResponse.getDummy());
-        //      return null;//subscribe(apiRequests.getNews());
+        //      return null;//subscribe(apiRequests.getNotifications());
     }
+
+    public Single<NotificationsResponse> getNotifications(int page) {
+        NotificationsResponse userResponse = new NotificationsResponse();
+        userResponse.setSuccess(1);
+        userResponse.setNotificationList(Notification.getDummy());
+        return Single.just(userResponse);
+//        return subscribe(apiRequests.getNotifications());
+    }
+
 }

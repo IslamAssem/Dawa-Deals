@@ -79,10 +79,12 @@ dependencies {/*
     implementation deps.navigation.fragment_ktx
     implementation deps.navigation.ui_ktx
 
+    implementation deps.room.runtime
+    implementation deps.room.rxjava2
+    annotationProcessor deps.room.compiler
     // Android Testing Support Library's runner and rules
     androidTestImplementation deps.atsl.runner
     androidTestImplementation deps.atsl.rules
-//    androidTestImplementation deps.room.testing
     androidTestImplementation deps.arch_core.testing
 
     // Espresso UI Testing

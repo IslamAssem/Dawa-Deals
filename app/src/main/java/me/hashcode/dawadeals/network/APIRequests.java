@@ -1,17 +1,5 @@
 package me.hashcode.dawadeals.network;
 
-import java.util.List;
-
-import io.reactivex.Single;
-import okhttp3.RequestBody;
-import retrofit2.Call;
-import retrofit2.http.Body;
-import retrofit2.http.Field;
-import retrofit2.http.FormUrlEncoded;
-import retrofit2.http.GET;
-import retrofit2.http.POST;
-import retrofit2.http.Query;
-
 @SuppressWarnings("unused")
 public interface APIRequests {
 //    @FormUrlEncoded
@@ -53,6 +41,6 @@ public interface APIRequests {
 //                                        @Query("exam_id") int exam_id,
 //                                        @Query("is_answer") int hasAnswer);
 //    //@FormUrlEncoded
-//    @GET("api/getNews")
-//    Single<NewsResponse> getNews();
+//    @GET("api/getNotifications")
+//    Single<NotificationsResponse> getNotifications();
 }

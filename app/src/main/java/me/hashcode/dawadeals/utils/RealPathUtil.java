@@ -11,9 +11,9 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore.Images.Media;
 import android.util.Log;
 
-import java.io.File;
-
 import androidx.loader.content.CursorLoader;
+
+import java.io.File;
 
 public class RealPathUtil {
     static final String TAG = "GalleryPhoto";

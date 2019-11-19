@@ -15,8 +15,8 @@ import dagger.android.AndroidInjection;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.data.model.user.UserDetails;
 import me.hashcode.dawadeals.factory.ViewModelFactory;
-import me.hashcode.dawadeals.ui.login.LoginFragment;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
+import me.hashcode.dawadeals.ui.login.LoginFragment;
 import me.hashcode.dawadeals.ui.login.LoginResult;
 import me.hashcode.dawadeals.ui.login.LoginViewModel;
 
@@ -92,6 +92,6 @@ public class Splash extends BaseActivity {
 //                else
 //                    loginViewModel.getUserInfo();
             }
-        },1000);
+        }, 2000);
     }
 }

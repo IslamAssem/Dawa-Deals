@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.TranslateAnimation;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,21 +16,17 @@ import java.util.List;
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 import me.hashcode.dawadeals.R;
 import me.hashcode.dawadeals.adapters.CategoriesAdapter;
 import me.hashcode.dawadeals.data.model.category.CategoryData;
 import me.hashcode.dawadeals.data.model.category.CategoryDetails;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
+import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 
 public class CategoriesFragment extends BaseFragment {
 
     private static final String TAG = "CategoriesFragment";
-    @BindView(R.id.search_btn)
-    View search_btn;
-    @BindView(R.id.search_layout)
-    View search_layout;
     @BindView(R.id.categories_recycler)
     RecyclerView categoriesRecycler;
     private CategoriesAdapter expandableAdapter;
@@ -125,6 +120,8 @@ public class CategoriesFragment extends BaseFragment {
 
     @Override
     public void initViews() {
+        if (context instanceof MainActivityGoogleSample)
+            ((MainActivityGoogleSample) context).setTextTitle("Categories", true, false);
         categoriesRecycler.setLayoutManager(layoutManager = new LinearLayoutManager(context,RecyclerView.VERTICAL,false));
          categoriesViewModel.getCategories();
         }
@@ -138,34 +135,6 @@ public class CategoriesFragment extends BaseFragment {
     public void initData(@NonNull Bundle data) {
 
     }
-
-    @OnClick(R.id.search_btn)
-    public void showSearch() {
-
-         search_layout.setVisibility(View.VISIBLE);
-         TranslateAnimation animate = new TranslateAnimation(
-                 0,
-                 0,
-                 search_layout.getHeight(),
-                 0);
-         animate.setDuration(500);
-         animate.setFillAfter(true);
-         search_layout.startAnimation(animate);
-     }
-//         if(!opened){
-//
-//         } else {
-//             view.setVisibility(View.INVISIBLE);
-//             TranslateAnimation animate = new TranslateAnimation(
-//                     0,
-//                     0,
-//                     0,
-//                     view.getHeight());
-//             animate.setDuration(500);
-//             animate.setFillAfter(true);
-//             view.startAnimation(animate);
-//         }
-
 
     @Override
     public String getTAG() {

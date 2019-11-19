@@ -20,6 +20,7 @@ import me.hashcode.dawadeals.data.model.trade.Transaction;
 import me.hashcode.dawadeals.interfaces.OnItemClickListener;
 import me.hashcode.dawadeals.ui.base.BaseActivity;
 import me.hashcode.dawadeals.ui.base.BaseFragment;
+import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
 import me.hashcode.dawadeals.utils.Utils;
 import smartdevelop.ir.eram.showcaseviewlib.GuideView;
 import smartdevelop.ir.eram.showcaseviewlib.config.DismissType;
@@ -44,6 +45,8 @@ public class TradesFragment extends BaseFragment {
 
     @Override
     public void initViews() {
+        if (context instanceof MainActivityGoogleSample)
+            ((MainActivityGoogleSample) context).setTextTitle("Latest Trades", true, false);
         tradesRecycler.setLayoutManager(new LinearLayoutManager(context));
         tradesViewModel.getLatestTrades();
         tradesRecycler.setAdapter(tradesAdapter = new TradesAdapter(new OnItemClickListener(){

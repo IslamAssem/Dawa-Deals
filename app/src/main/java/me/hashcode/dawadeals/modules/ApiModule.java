@@ -6,6 +6,7 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 import me.hashcode.dawadeals.data.Repository;
+import me.hashcode.dawadeals.database.DatabaseManager;
 import me.hashcode.dawadeals.network.APIClient;
 import me.hashcode.dawadeals.network.APIRequests;
 
@@ -92,7 +93,13 @@ public class ApiModule {
 
     @Provides
     @Singleton
-    Repository provideReoiitory (APIRequests apiRequests){
-        return new Repository(apiRequests);
+    Repository provideRepository(APIRequests apiRequests, DatabaseManager databaseManager) {
+        return new Repository(apiRequests, databaseManager);
+    }
+
+    @Provides
+    @Singleton
+    DatabaseManager provideDatabase() {
+        return DatabaseManager.getInstance();
     }
 }

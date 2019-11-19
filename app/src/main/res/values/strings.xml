@@ -50,4 +50,9 @@ Your fund balance is meant to \ncover the insurance fees of\n trades, Which is a
     <string name="part_deal">Part Deal</string>
     <string name="market_price">Market Price</string>
     <string name="sign_up">Sign up</string>
+    <string name="discount">Discount</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="cvv">CVV</string>
+    <string name="confirm">Confirm</string>
+    <string name="submit_offer">Submit Offer</string>
 </resources>

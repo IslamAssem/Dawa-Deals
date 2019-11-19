@@ -9,5 +9,18 @@
         android:id="@+id/navigation_wallet"
         android:name="me.hashcode.dawadeals.ui.wallet.WalletFragment"
         android:label="@string/wallet"
-        tools:layout="@layout/fragment_wallet" />
+        tools:layout="@layout/fragment_wallet">
+        <action
+            android:id="@+id/action_wallet_transaction"
+            app:destination="@+id/navigation_wallet_transaction"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_close_exit"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_wallet_transaction"
+        android:name="me.hashcode.dawadeals.ui.wallet.WalletTransactionFragment"
+        android:label="@string/wallet"
+        tools:layout="@layout/fragment_wallet_transaction" />
 </navigation>

@@ -4,40 +4,64 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-import androidx.annotation.Nullable;
+
 import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+
+import butterknife.OnClick;
 import me.hashcode.dawadeals.R;
+import me.hashcode.dawadeals.data.model.user.UserDetails;
+import me.hashcode.dawadeals.ui.base.BaseFragment;
+import me.hashcode.dawadeals.ui.mainActivity.MainActivityGoogleSample;
+import me.hashcode.dawadeals.utils.Utils;
 
 import static androidx.navigation.fragment.NavHostFragment.findNavController;
 
+public class AccountFragment extends BaseFragment {
 
-public class AccountFragment extends Fragment {
-
+    private static final String TAG = "accountfragment";
     private AccountViewModel accountViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
-            ViewGroup container, Bundle savedInstanceState) {
-        accountViewModel =
-                ViewModelProviders.of(this).get(AccountViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_notifications, container, false);
-        final TextView textView = root.findViewById(R.id.text_notifications);
-        accountViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-
-        return root;
+                             ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_account, container, false);
     }
 
     @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        findNavController(this).navigate(R.id.action_login);
+    public void initViews() {
+
+        if (context instanceof MainActivityGoogleSample)
+            ((MainActivityGoogleSample) context).setTextTitle(Utils.getStringRes(R.string.account_settings), false, false);
+        if (UserDetails.readUser() == null)
+            findNavController(this).navigate(R.id.action_login);
+//        else if (getActivity() != null)getActivity().onBackPressed();
+    }
+
+    @OnClick(R.id.notifications)
+    public void notifications() {
+        findNavController(this).navigate(R.id.action_notification);
+    }
+
+    @Override
+    public void initVariables() {
+
+    }
+
+    @Override
+    public void initData(@NonNull Bundle data) {
+
+    }
+
+    @Override
+    public void initViewModel() {
+        accountViewModel =
+                ViewModelProviders.of(this).get(AccountViewModel.class);
+
+
+    }
+
+    @Override
+    public String getTAG() {
+        return TAG;
     }
 }

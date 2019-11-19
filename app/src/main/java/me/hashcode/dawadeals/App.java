@@ -15,36 +15,11 @@ package me.hashcode.dawadeals;
  * limitations under the License.
  */
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.IntentFilter;
 import android.os.Build;
 
 import androidx.multidex.MultiDexApplication;
-
-import com.google.android.exoplayer2.DefaultRenderersFactory;
-import com.google.android.exoplayer2.RenderersFactory;
-import com.google.android.exoplayer2.database.DatabaseProvider;
-import com.google.android.exoplayer2.database.ExoDatabaseProvider;
-import com.google.android.exoplayer2.offline.ActionFileUpgradeUtil;
-import com.google.android.exoplayer2.offline.DefaultDownloadIndex;
-import com.google.android.exoplayer2.offline.DefaultDownloaderFactory;
-import com.google.android.exoplayer2.offline.DownloadManager;
-import com.google.android.exoplayer2.offline.DownloaderConstructorHelper;
-import com.google.android.exoplayer2.upstream.DataSource;
-import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
-import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
-import com.google.android.exoplayer2.upstream.FileDataSourceFactory;
-import com.google.android.exoplayer2.upstream.HttpDataSource;
-import com.google.android.exoplayer2.upstream.cache.Cache;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSource;
-import com.google.android.exoplayer2.upstream.cache.CacheDataSourceFactory;
-import com.google.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
-import com.google.android.exoplayer2.upstream.cache.SimpleCache;
-import com.google.android.exoplayer2.util.Log;
-
-import java.io.File;
-import java.io.IOException;
 
 import javax.inject.Inject;
 
@@ -57,6 +32,8 @@ import me.hashcode.dawadeals.recievers.ConnectivityReceiver;
 import me.hashcode.dawadeals.utils.Constants;
 import me.hashcode.dawadeals.utils.LocaleHelper;
 import timber.log.Timber;
+
+import static me.hashcode.dawadeals.database.DatabaseManager.setInstance;
 
 public class App extends MultiDexApplication implements HasAndroidInjector {
     public  static final String TAG="basketball federation";
@@ -83,6 +60,7 @@ public class App extends MultiDexApplication implements HasAndroidInjector {
     @Override
     public void onCreate() {
         super.onCreate();
+        setInstance(this);
         Timber.plant(new Timber.DebugTree());
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             registerReceiver(

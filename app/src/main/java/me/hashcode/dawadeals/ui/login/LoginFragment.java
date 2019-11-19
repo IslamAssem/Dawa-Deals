@@ -68,7 +68,7 @@ public class LoginFragment extends BaseFragment {
             public void onChanged(LoginFormState loginFormState) {
 
                 // disable login button unless both username / password is valid
-                login.setEnabled(loginFormState.getDataValid());
+//                login.setEnabled(loginFormState.getDataValid());
 
                 if (loginFormState.getUsernameError() != null) {
                     username.setError(getString(loginFormState.getUsernameError()));
@@ -82,8 +82,6 @@ public class LoginFragment extends BaseFragment {
         loginViewModel.get_loginResult().observe(this, new Observer<LoginResult>() {
             @Override
             public void onChanged(LoginResult loginResult) {
-
-                loading.setVisibility(View.GONE);
                 if (loginResult.getError() != null) {
                     ((BaseActivity)context).messagesHandler.showMessageDialog(loginResult.getError());
                 } else {
@@ -95,14 +93,13 @@ public class LoginFragment extends BaseFragment {
     }
     @BindView(R.id.login)
     View login;
-    View loading;
     @Inject
     ViewModelFactory viewModelFactory;
     private boolean passwordVisibility = true;
 
     @Override
     public void initViews() {
-         new KeyboardUtils((AppCompatActivity) context) {
+        new KeyboardUtils((AppCompatActivity) context) {
             @Override
             public void onShowKeyboard(int keyboardHeight) {
                 toggleViews(keyboardHeight);
@@ -127,17 +124,12 @@ public class LoginFragment extends BaseFragment {
         password.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
-                loginViewModel.login(
-                        username.getText().toString(),
-                        password.getText().toString()
-                );
-
+                login.performClick();
                 return false;
             }
         });
         login.setOnClickListener(view -> {
-
-            loading.setVisibility(View.VISIBLE);
+            //findNavController(this).navigate(R.id.action_account);
             loginViewModel.login(username.getText().toString(), password.getText().toString());
         });
         togglePassword(getView().findViewById(R.id.password_eye));

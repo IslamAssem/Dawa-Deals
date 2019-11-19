@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/constraint_layout"
+    app:layoutDescription="@xml/scene_trade_details"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -93,30 +94,35 @@
         app:barrierDirection="bottom"
         app:constraint_referenced_ids="avg_market_price_label,avg_trade_price_label" />
 
-    <com.google.android.material.tabs.TabLayout
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trade_layout" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorSecondaryPurple"
+        app:layout_constraintBottom_toBottomOf="@+id/trade_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/trade_layout" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/trade_layout"
+        style="@style/tab_text"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary"
-        app:tabTextAppearance="@style/tab_text"
-        app:layout_constraintTop_toBottomOf="@+id/chartp"
+        android:background="@color/colorSecondaryPurple"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Monday" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tuesday" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Wednesday" />
-    </com.google.android.material.tabs.TabLayout>
+        app:layout_constraintTop_toBottomOf="@+id/chartp"
+        app:tabMode="scrollable" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
