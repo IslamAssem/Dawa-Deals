@@ -2,7 +2,6 @@ package com.islam.slider.Transformers;
 
 import android.view.View;
 
-
 import androidx.core.view.ViewCompat;
 
 public class ZoomOutTransformer extends BaseTransformer {

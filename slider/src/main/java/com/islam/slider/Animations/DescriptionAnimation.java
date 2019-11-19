@@ -6,8 +6,6 @@ import android.view.View;
 
 import com.islam.slider.R;
 
-import androidx.core.view.ViewCompat;
-
 /**
  * A demo class to show how to use {@link com.islam.slider.Animations.BaseAnimationInterface}
  * to make  your custom animation in {@link com.islam.slider.Tricks.ViewPagerEx.PageTransformer} action.

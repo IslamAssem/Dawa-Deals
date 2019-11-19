@@ -31,7 +31,7 @@
     <string name="seconds"> ثانية </string>
     <string name="hour"> ساعة </string>
     <string name="day"> يوم </string>
-    <string name="news">الاخبار</string>
+    <string name="notifications">الاخبار</string>
     <string name="password">كلمة السر</string>
     <string name="prev">السابق</string>
     <string name="your_next_match">مباراتك القادمة</string>

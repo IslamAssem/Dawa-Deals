@@ -3,9 +3,9 @@ package com.islam.slider.Transformers;
 import android.os.Build;
 import android.view.View;
 
-import com.islam.slider.Tricks.ViewPagerEx;
-
 import androidx.core.view.ViewCompat;
+
+import com.islam.slider.Tricks.ViewPagerEx;
 
 public class FlipPageViewTransformer extends BaseTransformer {
 

@@ -3,7 +3,6 @@ package com.github.mikephil.charting.test;
 import com.github.mikephil.charting.utils.ObjectPool;
 
 import org.junit.Assert;
-
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 
     <string name="track_selection_title" translatable="false">Select tracks</string>
@@ -94,7 +94,7 @@
     <string name="app_update_required_message">A critical upgrade is required to proceed</string>
     <string name="app_update_prefered_message">Please, Upgrade to the latest version</string>
     <string name="phone_number_start_with_">Mobile number must start with 010,011,012 or 015</string>
-    <string name="news">News</string>
+    <string name="notifications">News</string>
     <string name="password">Password</string>
     <string name="prev">Prev</string>
     <string name="your_next_match">Your Next Match</string>

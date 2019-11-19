@@ -8,8 +8,8 @@ import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.DataSet;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.formatter.ValueFormatter;
-import com.github.mikephil.charting.utils.MPPointF;
 import com.github.mikephil.charting.model.GradientColor;
+import com.github.mikephil.charting.utils.MPPointF;
 
 import java.util.List;
 

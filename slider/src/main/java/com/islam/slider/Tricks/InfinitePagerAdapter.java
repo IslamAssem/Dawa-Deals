@@ -5,9 +5,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.islam.slider.SliderAdapter;
-
 import androidx.viewpager.widget.PagerAdapter;
+
+import com.islam.slider.SliderAdapter;
 
 /**
  * A PagerAdapter that wraps around another PagerAdapter to handle paging wrap-around.

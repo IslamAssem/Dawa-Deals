@@ -13,13 +13,8 @@ import android.graphics.Paint.Align;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
-import android.os.Debug;
 import android.os.Environment;
 import android.provider.MediaStore.Images;
-
-import androidx.annotation.ColorInt;
-import androidx.annotation.RequiresApi;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -28,8 +23,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 
+import androidx.annotation.ColorInt;
+import androidx.annotation.RequiresApi;
+
 import com.github.mikephil.charting.animation.ChartAnimator;
-import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.animation.Easing.EasingFunction;
 import com.github.mikephil.charting.components.Description;
 import com.github.mikephil.charting.components.IMarker;
@@ -340,10 +337,7 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
             return true;
         else {
 
-            if (mData.getEntryCount() <= 0)
-                return true;
-            else
-                return false;
+            return mData.getEntryCount() <= 0;
         }
     }
 
@@ -514,9 +508,8 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
      * @return
      */
     public boolean valuesToHighlight() {
-        return mIndicesToHighlight == null || mIndicesToHighlight.length <= 0
-                || mIndicesToHighlight[0] == null ? false
-                : true;
+        return mIndicesToHighlight != null && mIndicesToHighlight.length > 0
+                && mIndicesToHighlight[0] != null;
     }
 
     /**

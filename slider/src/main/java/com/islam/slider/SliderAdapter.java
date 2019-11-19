@@ -4,12 +4,11 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.viewpager.widget.PagerAdapter;
 
 import com.islam.slider.SliderTypes.BaseSliderView;
 
 import java.util.ArrayList;
-
-import androidx.viewpager.widget.PagerAdapter;
 
 /**
  * A slider adapter

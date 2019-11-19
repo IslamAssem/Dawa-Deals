@@ -12,13 +12,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import androidx.viewpager.widget.PagerAdapter;
+
 import com.islam.slider.R;
 import com.islam.slider.Tricks.InfinitePagerAdapter;
 import com.islam.slider.Tricks.ViewPagerEx;
 
 import java.util.ArrayList;
-
-import androidx.viewpager.widget.PagerAdapter;
 
 /**
  * Pager Indicator.
@@ -80,8 +80,8 @@ public class PagerIndicator extends LinearLayout implements ViewPagerEx.OnPageCh
 
     public enum IndicatorVisibility{
         Visible,
-        Invisible;
-    };
+        Invisible
+    }
 
     private GradientDrawable mUnSelectedGradientDrawable;
     private GradientDrawable mSelectedGradientDrawable;

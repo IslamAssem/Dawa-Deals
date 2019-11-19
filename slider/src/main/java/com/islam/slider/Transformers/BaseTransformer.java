@@ -2,13 +2,13 @@ package com.islam.slider.Transformers;
 
 import android.view.View;
 
+import androidx.core.view.ViewCompat;
+
 import com.islam.slider.Animations.BaseAnimationInterface;
 import com.islam.slider.Tricks.ViewPagerEx;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import androidx.core.view.ViewCompat;
 
 /**
  * This is all transformers father.
