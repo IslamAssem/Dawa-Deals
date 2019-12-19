@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="tranaction"
+            type="me.hashcode.dawadeals.data.model.trade.Transaction" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <!--                app:srcCompat="@drawable/ic_trade_buy"-->
+
+            <TextView
+                android:id="@+id/discount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getDiscount())+'%'}"
+                android:textColor="@color/green"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/price_discount"
+                app:layout_constraintEnd_toStartOf="@+id/quantity"
+                app:layout_constraintHorizontal_weight="2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/price_discount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getCategory())}"
+                android:textColor="@color/dark_text"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/discount"
+                app:layout_constraintHorizontal_weight="3"
+                app:layout_constraintStart_toStartOf="@+id/discount"
+                app:layout_constraintTop_toBottomOf="@+id/discount"
+                app:layout_constraintVertical_bias="1.0"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getQuantity())}"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/part_deal"
+                app:layout_constraintEnd_toStartOf="@+id/expire_date"
+                app:layout_constraintHorizontal_weight="2"
+                 app:layout_constraintStart_toEndOf="@+id/discount"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/part_deal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getPartDeal())}"
+                android:textColor="@color/dark_text"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/quantity"
+                app:layout_constraintHorizontal_weight="3"
+                app:layout_constraintStart_toStartOf="@+id/quantity"
+                app:layout_constraintTop_toBottomOf="@+id/quantity"
+                app:layout_constraintVertical_bias="1.0"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/expire_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getExpireDate())}"
+                android:textColor="@color/purble"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/market_price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/apply"
+                app:layout_constraintHorizontal_weight="2"
+                app:layout_constraintStart_toEndOf="@+id/quantity"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/market_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="@{String.valueOf(tranaction.getMarketPrice())}"
+                android:textColor="@color/dark_text"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/expire_date"
+                app:layout_constraintHorizontal_weight="3"
+                app:layout_constraintStart_toStartOf="@+id/expire_date"
+                app:layout_constraintTop_toBottomOf="@+id/expire_date"
+                app:layout_constraintVertical_bias="1.0"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_rectangle_5_accent"
+                android:gravity="center"
+                android:minWidth="80dp"
+                android:minHeight="30dp"
+                android:text="Apply"
+                android:textColor="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_weight="2"
+                app:layout_constraintStart_toEndOf="@id/expire_date"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/transactions_divider"/>
+    </LinearLayout>
+</layout>

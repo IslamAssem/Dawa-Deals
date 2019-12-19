@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <View
+            android:id="@+id/help_about_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_rectangle_10_secondary_purple_end"
+            app:layout_constraintBottom_toBottomOf="@+id/about"
+            app:layout_constraintEnd_toEndOf="@+id/help"
+            app:layout_constraintStart_toStartOf="@+id/help"
+            app:layout_constraintTop_toTopOf="@+id/help" />
+
+        <View
+            android:id="@+id/faq_policy_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_rectangle_10_secondary_purple_end"
+            app:layout_constraintBottom_toBottomOf="@+id/faq"
+            app:layout_constraintEnd_toEndOf="@+id/policy"
+            app:layout_constraintStart_toStartOf="@+id/policy"
+            app:layout_constraintTop_toTopOf="@+id/policy" />
+
+        <View
+            android:id="@+id/account_management_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_rectangle_10_secondary_purple_end"
+            app:layout_constraintBottom_toBottomOf="@+id/my_trades"
+            app:layout_constraintEnd_toEndOf="@+id/notifications"
+            app:layout_constraintStart_toStartOf="@+id/notifications"
+            app:layout_constraintTop_toTopOf="@+id/notifications" />
+
+        <View
+            android:id="@+id/personal_info_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/ic_rectangle_10_secondary_purple_end"
+            app:layout_constraintBottom_toBottomOf="@+id/physical_address_label"
+            app:layout_constraintEnd_toEndOf="@+id/email"
+            app:layout_constraintStart_toStartOf="@+id/email_label"
+            app:layout_constraintTop_toTopOf="@+id/email_label" />
+
+        <View
+            android:id="@+id/personal_info_divider"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="26dp"
+            android:background="@color/green"
+            app:layout_constraintBottom_toBottomOf="@+id/physical_address_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/email_label" />
+
+        <TextView
+            android:id="@+id/personal_info_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Personal Info"
+            android:textColor="@color/colorLightPurple"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/personal_info_divider"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/email_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingStart="10dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="20dp"
+            android:text="Email"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/personal_info_divider"
+            app:layout_constraintTop_toBottomOf="@+id/personal_info_label" />
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="info@hashcode.me"
+            android:textColor="#f2f2f2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/email_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/barrier2"
+            app:layout_constraintTop_toTopOf="@+id/email_label" />
+
+        <TextView
+            android:id="@+id/physical_address"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="26dp"
+            android:gravity="start|center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="13 hassan badrab "
+            android:textColor="#f2f2f2"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/physical_address_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/barrier2"
+            app:layout_constraintTop_toTopOf="@+id/physical_address_label" />
+
+        <TextView
+            android:id="@+id/physical_address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="10dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="20dp"
+            android:text="Physical\n Address"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/personal_info_divider"
+            app:layout_constraintTop_toBottomOf="@+id/email_label" />
+
+
+        <View
+            android:id="@+id/account_management_divider"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="26dp"
+            android:background="@color/green"
+            app:layout_constraintBottom_toBottomOf="@+id/my_trades"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/notifications" />
+
+        <TextView
+            android:id="@+id/account_management_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Account Management"
+            android:textColor="@color/colorLightPurple"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/account_management_divider"
+            app:layout_constraintTop_toBottomOf="@+id/physical_address_label" />
+
+        <TextView
+            android:id="@+id/notifications"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Notifications"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/account_management_divider"
+            app:layout_constraintTop_toBottomOf="@+id/account_management_label" />
+
+        <TextView
+            android:id="@+id/my_trades"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="My Trades"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/account_management_divider"
+            app:layout_constraintTop_toBottomOf="@+id/notifications" />
+
+
+        <View
+            android:id="@+id/faq_policy_divider"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="26dp"
+            android:background="@color/green"
+            app:layout_constraintBottom_toBottomOf="@+id/faq"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/policy" />
+
+        <TextView
+            android:id="@+id/faq_policy_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Faq and Policy"
+            android:textColor="@color/colorLightPurple"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/faq_policy_divider"
+            app:layout_constraintTop_toBottomOf="@+id/my_trades" />
+
+        <TextView
+            android:id="@+id/policy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Policy"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/faq_policy_divider"
+            app:layout_constraintTop_toBottomOf="@+id/faq_policy_label" />
+
+        <TextView
+            android:id="@+id/faq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="FAQ"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/faq_policy_divider"
+            app:layout_constraintTop_toBottomOf="@+id/policy" />
+
+
+        <View
+            android:id="@+id/support_divider"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="26dp"
+            android:background="@color/green"
+            app:layout_constraintBottom_toBottomOf="@+id/about"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/help" />
+
+        <TextView
+            android:id="@+id/support_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Support"
+            android:textColor="@color/colorLightPurple"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/support_divider"
+            app:layout_constraintTop_toBottomOf="@+id/faq" />
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Help"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/support_divider"
+            app:layout_constraintTop_toBottomOf="@+id/support_label" />
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="About"
+            android:textColor="@color/bdbdbd"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/support_divider"
+            app:layout_constraintTop_toBottomOf="@+id/help" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="email_label,physical_address_label" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

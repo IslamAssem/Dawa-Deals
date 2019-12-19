@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <!--                app:srcCompat="@drawable/ic_trade_buy"-->
+
+        <!--                app:srcCompat="@drawable/ic_trade_buy"-->
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/price_discount"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/price_discount"
+            app:layout_constraintEnd_toStartOf="@+id/quantity"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/price_discount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/price_egp"
+            android:textColor="@color/dark_text"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/discount"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintStart_toStartOf="@+id/discount"
+            app:layout_constraintTop_toBottomOf="@+id/discount"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/quantity"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/part_deal"
+            app:layout_constraintEnd_toStartOf="@+id/expire_date"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toEndOf="@+id/discount"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/part_deal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/part_deal"
+            android:textColor="@color/dark_text"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/quantity"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintStart_toStartOf="@+id/quantity"
+            app:layout_constraintTop_toBottomOf="@+id/quantity"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/expire_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/exp_date"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/market_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintStart_toEndOf="@+id/quantity"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/market_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="start"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:text="@string/market_price"
+            android:textColor="@color/dark_text"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/expire_date"
+            app:layout_constraintStart_toStartOf="@+id/expire_date"
+            app:layout_constraintTop_toBottomOf="@+id/expire_date"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/transactions_divider"/>
+</LinearLayout>

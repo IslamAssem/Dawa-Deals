@@ -13,7 +13,59 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98357759-045d-4ad6-920f-e5879fe603f8" name="Default Changelist" comment="add search">
+    <list default="true" id="98357759-045d-4ad6-920f-e5879fe603f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/NotificationsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/SearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/SimpleFragmentPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesBuyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/TradesSellAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/SearchEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/news/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/model/news/NotificationsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/database/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/database/SearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/SearchViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/AddNewTradeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradesBuyFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradesSellFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletTransactionFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/primary_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/white_bdbdbd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_card.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fawry.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_10_secondary_purple.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_10_secondary_purple_end.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_20_purble.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_5_accent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_5_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_5_primary_accent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_5_purble.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_yellow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/yellow_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_trade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_recycler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wallet_transaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_trade_buy_sell.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_trade_buy_sell_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_trade_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/patternedTextWatcher/CccFormatTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/patternedTextWatcher/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/patternedTextWatcher/PatternedTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/patternedTextWatcher/Preconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/patternedTextWatcher/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/simpleListeners/SimpleTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/simpleListeners/SimpleTransitionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,285 +76,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_rc01_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_alpha2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_alpha2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_rc01_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_rc01_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/ChartLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/ChartLib.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/animation/ChartAnimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/animation/ChartAnimator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/animation/Easing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/animation/Easing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/AbstractBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/AbstractBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/BarBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/BarBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/HorizontalBarBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/buffer/HorizontalBarBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BarLineChartBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BubbleChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/BubbleChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/CandleStickChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/CandleStickChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/Chart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/CombinedChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/HorizontalBarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/LineChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/PieChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/PieRadarChartBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/PieRadarChartBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/RadarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/ScatterChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/charts/ScatterChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/AxisBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/ComponentBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/Description.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/IMarker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/IMarker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/Legend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/LegendEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/LimitLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/MarkerImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/MarkerImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/MarkerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/MarkerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/XAxis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/XAxis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/YAxis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/components/YAxis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarLineScatterCandleBubbleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarLineScatterCandleBubbleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BarLineScatterCandleBubbleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BaseDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BaseEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/BubbleEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CandleEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ChartData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/CombinedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/DataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineRadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/LineScatterCandleRadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/PieEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/RadarEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ScatterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ScatterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/ScatterDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/filter/Approximator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/data/filter/Approximator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/exception/DrawingDataSetNotCreatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/exception/DrawingDataSetNotCreatedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/ColorFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/ColorFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultAxisValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultAxisValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultFillFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultFillFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/DefaultValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IAxisValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IAxisValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IFillFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IFillFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IndexAxisValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/IndexAxisValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/LargeValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/LargeValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/PercentFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/PercentFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/StackedValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/StackedValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/ValueFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/formatter/ValueFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/BarHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/BarHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/ChartHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/CombinedHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/CombinedHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/Highlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/HorizontalBarHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/HorizontalBarHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/IHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/IHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/PieHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/PieHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/PieRadarHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/RadarHighlighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/RadarHighlighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/highlight/Range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarLineScatterCandleBubbleDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BarLineScatterCandleBubbleDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/BubbleDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CandleDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ChartInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ChartInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CombinedDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/CombinedDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/LineDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/dataprovider/ScatterDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBarLineScatterCandleBubbleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBarLineScatterCandleBubbleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBubbleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IBubbleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ICandleDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ICandleDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineRadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineRadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineScatterCandleRadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/ILineScatterCandleRadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IPieDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IPieDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IRadarDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IRadarDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IScatterDataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/interfaces/datasets/IScatterDataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedMoveViewJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedViewPortJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedViewPortJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/AnimatedZoomJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/MoveViewJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/ViewPortJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/jobs/ZoomJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/BarLineChartTouchListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/ChartTouchListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartGestureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartGestureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnChartValueSelectedListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnDrawLineChartTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnDrawLineChartTouchListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnDrawListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/OnDrawListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/PieRadarChartTouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/listener/PieRadarChartTouchListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/matrix/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/matrix/Vector3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/model/GradientColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/model/GradientColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/AxisRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BarChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BarChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BarLineScatterCandleBubbleRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BarLineScatterCandleBubbleRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BubbleChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/BubbleChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/CandleStickChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/CandleStickChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/CombinedChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/CombinedChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/DataRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/DataRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/HorizontalBarChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/HorizontalBarChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LegendRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LegendRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineRadarRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineRadarRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineScatterCandleRadarRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/LineScatterCandleRadarRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/PieChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/RadarChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/RadarChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/ScatterChartRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/ScatterChartRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRendererHorizontalBarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRendererHorizontalBarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRendererRadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/XAxisRendererRadarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRendererHorizontalBarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRendererHorizontalBarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRendererRadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/YAxisRendererRadarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/ChevronDownShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/ChevronDownShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/ChevronUpShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/ChevronUpShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/CircleShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/CircleShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/CrossShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/CrossShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/IShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/IShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/SquareShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/SquareShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/TriangleShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/TriangleShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/XShapeRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/renderer/scatter/XShapeRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ColorTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ColorTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/EntryXComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/EntryXComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/FSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/FSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/HorizontalViewPortHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/HorizontalViewPortHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/MPPointD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/MPPointD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/MPPointF.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/MPPointF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ObjectPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/Transformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/TransformerHorizontalBarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/TransformerHorizontalBarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ViewPortHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/main/java/com/github/mikephil/charting/utils/ViewPortHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ApproximatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ApproximatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/AxisRendererTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/AxisRendererTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/BarDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/BarDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ChartDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ChartDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/DataSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/DataSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/LargeValueFormatterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/LargeValueFormatterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ObjectPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChartLib/src/test/java/com/github/mikephil/charting/test/ObjectPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ApiModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ApiModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/UiModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/network/APIRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/network/APIRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/recievers/ConnectivityReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/recievers/ConnectivityReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/CustomMarkerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/CustomMarkerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/base/BaseFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/categories/CategoriesFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/splash/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/splash/Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/BitmapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/BitmapUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/RealPathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/RealPathUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fade_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fade_red.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_back.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_10_accent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_10_accent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_categories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trade_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trades.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_trades.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/marker_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/marker_view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/scene_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/scene_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/scene_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/customwidgets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/customwidgets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/src/main/res/values-ar/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/src/main/res/values-ar/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customwidgets/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customwidgets/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Animations/BaseAnimationInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Animations/BaseAnimationInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Animations/DescriptionAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Animations/DescriptionAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Indicators/PagerIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Indicators/PagerIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/BaseSliderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/BaseSliderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/DefaultSliderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/DefaultSliderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/TextSliderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/SliderTypes/TextSliderView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/AccordionTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/AccordionTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/BackgroundToForegroundTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/BackgroundToForegroundTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/BaseTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/BaseTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/CubeInTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/CubeInTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/DefaultTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/DefaultTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/DepthPageTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/DepthPageTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FadeTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FadeTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FlipHorizontalTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FlipHorizontalTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FlipPageViewTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/FlipPageViewTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ForegroundToBackgroundTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ForegroundToBackgroundTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/RotateDownTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/RotateDownTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/RotateUpTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/RotateUpTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/StackTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/StackTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/TabletTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/TabletTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomInTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomInTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomOutSlideTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomOutSlideTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomOutTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Transformers/ZoomOutTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/FixedSpeedScroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/FixedSpeedScroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/InfinitePagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/InfinitePagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/InfiniteViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/InfiniteViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/ViewPagerEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/java/com/islam/slider/Tricks/ViewPagerEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_default_zoom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_default_zoom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_text.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/layout/render_type_text.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/layout/slider_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/layout/slider_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slider/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/slider/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/youtubeplayercore/youtubeplayercore.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -329,73 +107,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="246" column="15" selection-start-line="246" selection-start-column="15" selection-end-line="246" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/FragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="132" column="31" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="169" column="31" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
+            <state relative-caret-position="113">
+              <caret line="178" column="54" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
               <folding>
                 <element signature="e#5420#5421#0" expanded="true" />
                 <element signature="e#5470#5471#0" expanded="true" />
@@ -404,19 +119,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha06/b2ea828d0cb49f825710976cc99d46afb4c7181b/fragment-1.1.0-alpha06-sources.jar!/androidx/fragment/app/FragmentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="155">
+              <caret line="594" column="20" lean-forward="true" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/showcaseviewlib/src/main/java/smartdevelop/ir/eram/showcaseviewlib/GuideView.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.2.0-alpha01/6970cb4506bc476c6e19a37d582e9a001fd3d373/navigation-fragment-2.2.0-alpha01-sources.jar!/androidx/navigation/fragment/NavHostFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml">
+          <provider editor-type-id="nav-designer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
+              <folding>
+                <element signature="e#6766#6767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -435,10 +175,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/back</find>
-      <find>R.id.bac</find>
-      <find>not</find>
-      <find>title</find>
       <find>back</find>
       <find>page</find>
       <find>hint</find>
@@ -465,6 +201,10 @@
       <find>new Key</find>
       <find>initviews</find>
       <find>login</find>
+      <find>action_register</find>
+      <find>.login</find>
+      <find>account</find>
+      <find>action_account</find>
     </findStrings>
     <replaceStrings>
       <replace>ad_space</replace>
@@ -524,8 +264,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/home/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trades/TradesFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/modules/ViewModelModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_search.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/notifications/NotificationsViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/NotificationsAdapter.java" />
@@ -538,7 +276,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/yellow_selector.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_5_primary_accent.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/color/primary_yellow.xml" />
         <option value="$PROJECT_DIR$/customwidgets/src/main/java/com/islam/custom/simpleListeners/SimpleTextWatcher.java" />
@@ -562,6 +299,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/scene_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml" />
       </list>
     </option>
   </component>
@@ -579,48 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -688,10 +386,57 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dawa Deals" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="dawadeals" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_28_5.2_1080x1920 [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="me.hashcode.dawadeals" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_28_5.2_1080x1920" />
@@ -704,7 +449,7 @@
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/Footballquiz source code and apk/Footballquiz" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -840,7 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574010933505</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add libraries">
+      <created>1574168423564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574168423564</updated>
+    </task>
+    <task id="LOCAL-00006" summary="backup">
+      <created>1574168644494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574168644494</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -854,9 +613,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="975" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.503876" side_tool="true" weight="0.31216362" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49612403" visible="true" weight="0.27341226" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49612403" visible="true" weight="0.27233586" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -866,13 +626,13 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32868218" />
       <window_info anchor="bottom" id="Run" order="1" weight="0.32868218" />
-      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49730894" weight="0.35968992" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.49730894" weight="0.40930232" />
       <window_info anchor="bottom" id="TODO" order="3" weight="0.32921174" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.38914728" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5026911" side_tool="true" weight="0.42635658" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49838537" weight="0.675969" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49838537" weight="0.39379844" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
@@ -893,7 +653,8 @@
     <MESSAGE value="add account fragment" />
     <MESSAGE value="add search" />
     <MESSAGE value="add libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="add libraries" />
+    <MESSAGE value="backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -927,43 +688,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java</url>
-          <line>69</line>
+          <line>82</line>
           <properties class="me.hashcode.dawadeals.ui.trade_details.TradeDetailsFragment" method="onCreateView" />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/trade_details/TradeDetailsFragment.java</url>
-          <line>85</line>
+          <line>89</line>
           <properties class="me.hashcode.dawadeals.ui.trade_details.TradeDetailsFragment" method="initViews" />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/SimpleFragmentPagerAdapter.java</url>
           <line>63</line>
-          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" method="getItem" />
+          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/SimpleFragmentPagerAdapter.java</url>
           <line>46</line>
-          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" method="add" />
+          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/adapters/SimpleFragmentPagerAdapter.java</url>
           <line>71</line>
-          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" method="getCount" />
+          <properties class="me.hashcode.dawadeals.adapters.SimpleFragmentPagerAdapter" />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java</url>
-          <line>32</line>
+          <line>30</line>
           <properties class="me.hashcode.dawadeals.ui.account.AccountFragment" method="initViews" />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/NavigationSetup.java</url>
-          <line>176</line>
+          <line>170</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -1014,6 +775,12 @@
           <line>78</line>
           <properties />
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/customwidgets/src/main/java/customNavigator/NavigationExtensions.kt</url>
@@ -1099,38 +866,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="122" lean-forward="true" selection-start-line="105" selection-start-column="37" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_5_primary_accent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle_border_primary_accent.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/wallet_navigation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="e#676#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/color/accent_gray.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/color/primary_yellow.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1218,19 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.2.0-alpha01/9b10a25420c1e2626e2240107cd9a96484bea937/navigation-runtime-2.2.0-alpha01-sources.jar!/androidx/navigation/NavController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
-          <folding>
-            <element signature="e#30629#30630#0" expanded="true" />
-            <element signature="e#30666#30667#0" expanded="true" />
-            <element signature="e#31139#31140#0" expanded="true" />
-            <element signature="e#31182#31183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/wallet/WalletFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1307,14 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_search.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_trade_details.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1352,13 +1066,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/data/SearchEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1376,17 +1084,6 @@
           <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showcaseviewlib/src/main/java/smartdevelop/ir/eram/showcaseviewlib/GuideView.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Sdk/sources/android-29/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1409,13 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/FragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1423,46 +1113,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/mainActivity/MainActivityGoogleSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="246" column="15" selection-start-line="246" selection-start-column="15" selection-end-line="246" selection-end-column="15" />
+        <state relative-caret-position="3615">
+          <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.2.0-alpha02/2d5c57ce649567791ab660fbbe2355a1d0ba9af1/fragment-1.2.0-alpha02-sources.jar!/androidx/fragment/app/FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="132" column="31" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="405">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showcaseviewlib/src/main/java/smartdevelop/ir/eram/showcaseviewlib/GuideView.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_google_sample.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/scene_search.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="132" column="40" lean-forward="true" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="108" column="34" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/account/AccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1176#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/login/LoginFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+          <folding>
+            <element signature="e#6766#6767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.2.0-alpha01/6970cb4506bc476c6e19a37d582e9a001fd3d373/navigation-fragment-2.2.0-alpha01-sources.jar!/androidx/navigation/fragment/NavHostFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha06/b2ea828d0cb49f825710976cc99d46afb4c7181b/fragment-1.1.0-alpha06-sources.jar!/androidx/fragment/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="594" column="20" lean-forward="true" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.2.0-alpha01/9b10a25420c1e2626e2240107cd9a96484bea937/navigation-runtime-2.2.0-alpha01-sources.jar!/androidx/navigation/NavController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="714" selection-start-line="714" selection-end-line="714" />
+          <folding>
+            <element signature="e#30666#30667#0" expanded="true" />
+            <element signature="e#31139#31140#0" expanded="true" />
+            <element signature="e#31182#31183#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/hashcode/dawadeals/ui/register/RegisterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="169" column="31" selection-start-line="169" selection-start-column="31" selection-end-line="169" selection-end-column="31" />
+        <state relative-caret-position="113">
+          <caret line="178" column="54" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="54" />
           <folding>
             <element signature="e#5420#5421#0" expanded="true" />
             <element signature="e#5470#5471#0" expanded="true" />
@@ -1470,18 +1245,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-fragment/2.2.0-alpha01/6970cb4506bc476c6e19a37d582e9a001fd3d373/navigation-fragment-2.2.0-alpha01-sources.jar!/androidx/navigation/fragment/NavHostFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/account_navigation.xml">
+      <provider editor-type-id="nav-designer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="248">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
         </state>
       </provider>
     </entry>
