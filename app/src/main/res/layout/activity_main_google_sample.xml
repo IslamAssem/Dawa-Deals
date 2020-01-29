@@ -20,9 +20,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/activity_root"
-    android:orientation="vertical"
-    app:layoutDescription="@xml/scene_search"
-    tools:context=".ui.mainActivity.MainActivityGoogleSample">
+    app:layoutDescription="@xml/scene_search" >
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_container"

@@ -26,7 +26,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/debug/java;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/release/kotlin;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/release/java;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/debugAndroidTest/kotlin;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/debugUnitTest/kotlin;/home/hashcode/Android/projects/dawa deals/youtubeplayercore/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
